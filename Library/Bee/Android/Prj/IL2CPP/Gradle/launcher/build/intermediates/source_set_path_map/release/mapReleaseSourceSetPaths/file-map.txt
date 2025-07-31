@@ -1,0 +1,12 @@
+com.xreal.bachelor.launcher-jetified-nractivitylife_6-release-0 C:\Users\adria\.gradle\caches\8.11\transforms\6eafb416705055335a972e207672d1a1\transformed\jetified-nractivitylife_6-release\res
+com.xreal.bachelor.launcher-jetified-nrunityandroidpermission-release-1 C:\Users\adria\.gradle\caches\8.11\transforms\aeabb6e4378e67fe9e369516b4719757\transformed\jetified-nrunityandroidpermission-release\res
+com.xreal.bachelor.launcher-jetified-Glasses-Display-Plug-Event-2.3.7-2 C:\Users\adria\.gradle\caches\8.11\transforms\d338a6e3ff1ffeecb6eb3772980010ba\transformed\jetified-Glasses-Display-Plug-Event-2.3.7\res
+com.xreal.bachelor.launcher-pngs-3 D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\generated\res\pngs\release
+com.xreal.bachelor.launcher-resValues-4 D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\generated\res\resValues\release
+com.xreal.bachelor.launcher-packageReleaseResources-5 D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.xreal.bachelor.launcher-packageReleaseResources-6 D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.xreal.bachelor.launcher-release-7 D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\build\intermediates\merged_res\release\mergeReleaseResources
+com.xreal.bachelor.launcher-main-8 D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\res
+com.xreal.bachelor.launcher-release-9 D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\release\res
+com.xreal.bachelor.launcher-release-10 D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\packaged_res\release\packageReleaseResources
+com.xreal.bachelor.launcher-release-11 D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\packaged_res\release\packageReleaseResources

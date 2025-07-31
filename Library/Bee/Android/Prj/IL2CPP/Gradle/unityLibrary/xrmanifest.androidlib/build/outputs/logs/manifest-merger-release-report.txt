@@ -1,0 +1,47 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:2:1-11:12
+	package
+		ADDED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:2:70-113
+		INJECTED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:3:3-7:17
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:4:5-71
+	android:name
+		ADDED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:4:15-68
+meta-data#nreal_sdk
+ADDED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:5:5-64
+	android:value
+		ADDED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:5:41-61
+	android:name
+		ADDED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:5:16-40
+meta-data#com.nreal.supportDevices
+ADDED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:6:5-98
+	android:value
+		ADDED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:6:56-95
+	android:name
+		ADDED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:6:16-55
+uses-permission#android.permission.VIBRATION
+ADDED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:8:3-66
+	android:name
+		ADDED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:8:20-63
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:9:3-69
+	android:name
+		ADDED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:9:20-66
+uses-permission#android.permission.CAMERA
+ADDED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:10:3-63
+	android:name
+		ADDED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:10:20-60
+uses-sdk
+INJECTED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml
+INJECTED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml

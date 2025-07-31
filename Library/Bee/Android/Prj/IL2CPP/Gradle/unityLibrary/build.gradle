@@ -1,0 +1,56 @@
+apply plugin: 'com.android.library'
+apply from: '../shared/keepUnitySymbols.gradle'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation(name: 'nractivitylife_6-release', ext:'aar')
+    implementation(name: 'Log-Control-1.2', ext:'aar')
+    implementation(name: 'nrunityandroidpermission-release', ext:'aar')
+    implementation(name: 'nr_loader', ext:'aar')
+    implementation(name: 'nr_common', ext:'aar')
+    implementation(name: 'Glasses-Display-Plug-Event-2.3.7', ext:'aar')
+    implementation(name: 'NativeFilePicker', ext:'aar')
+    implementation(name: 'unityandroidpermissions', ext:'aar')
+    implementation project(':unityLibrary:xrmanifest.androidlib')
+}
+
+android {
+    namespace "com.unity3d.player"
+    ndkPath "C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"
+    ndkVersion "27.2.12479018"
+    compileSdk 36
+    buildToolsVersion = "34.0.0"
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    defaultConfig {
+        consumerProguardFiles "proguard-unity.txt"
+        versionName "1.0.0"
+        minSdk 30
+        targetSdk 36
+        versionCode 1
+
+        ndk {
+            abiFilters "arm64-v8a"
+            debugSymbolLevel "none"
+        }
+    }
+
+    lint {
+        abortOnError false
+    }
+
+    androidResources {
+        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
+        noCompress = ['.unity3d', '.ress', '.resource', '.obb', '.bundle', '.unityexp'] + unityStreamingAssets.tokenize(', ')
+    }
+
+    packaging {
+        jniLibs {
+            useLegacyPackaging true
+        }
+    }
+}

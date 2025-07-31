@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.UnityTechnologies.XR.Manifest" >
+
+    <uses-sdk android:minSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.VIBRATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application>
+        <activity android:name="com.unity3d.player.UnityPlayerActivity" />
+
+        <meta-data
+            android:name="nreal_sdk"
+            android:value="true" />
+        <meta-data
+            android:name="com.nreal.supportDevices"
+            android:value="1|XrealLight|2|XrealAir" />
+    </application>
+
+</manifest>

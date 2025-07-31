@@ -1,0 +1,68 @@
+<dependencies>
+  <compile
+      roots="__local_aars__:D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,:nractivitylife_6-release:@aar,:Log-Control-1.2:@aar,:nrunityandroidpermission-release:@aar,:nr_loader:@aar,:nr_common:@aar,:Glasses-Display-Plug-Event-2.3.7:@aar,:NativeFilePicker:@aar,:unityandroidpermissions:@aar,:@@:unityLibrary:xrmanifest.androidlib::release">
+    <dependency
+        name="__local_aars__:D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+        simpleName="__local_aars__:D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar"/>
+    <dependency
+        name=":nractivitylife_6-release:@aar"
+        simpleName=":nractivitylife_6-release"/>
+    <dependency
+        name=":Log-Control-1.2:@aar"
+        simpleName=":Log-Control-1.2"/>
+    <dependency
+        name=":nrunityandroidpermission-release:@aar"
+        simpleName=":nrunityandroidpermission-release"/>
+    <dependency
+        name=":nr_loader:@aar"
+        simpleName=":nr_loader"/>
+    <dependency
+        name=":nr_common:@aar"
+        simpleName=":nr_common"/>
+    <dependency
+        name=":Glasses-Display-Plug-Event-2.3.7:@aar"
+        simpleName=":Glasses-Display-Plug-Event-2.3.7"/>
+    <dependency
+        name=":NativeFilePicker:@aar"
+        simpleName=":NativeFilePicker"/>
+    <dependency
+        name=":unityandroidpermissions:@aar"
+        simpleName=":unityandroidpermissions"/>
+    <dependency
+        name=":@@:unityLibrary:xrmanifest.androidlib::release"
+        simpleName="Gradle.unityLibrary:xrmanifest.androidlib"/>
+  </compile>
+  <package
+      roots="__local_aars__:D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,:nractivitylife_6-release:@aar,:Log-Control-1.2:@aar,:nrunityandroidpermission-release:@aar,:nr_loader:@aar,:nr_common:@aar,:Glasses-Display-Plug-Event-2.3.7:@aar,:NativeFilePicker:@aar,:unityandroidpermissions:@aar,:@@:unityLibrary:xrmanifest.androidlib::release">
+    <dependency
+        name="__local_aars__:D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+        simpleName="__local_aars__:D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar"/>
+    <dependency
+        name=":nractivitylife_6-release:@aar"
+        simpleName=":nractivitylife_6-release"/>
+    <dependency
+        name=":Log-Control-1.2:@aar"
+        simpleName=":Log-Control-1.2"/>
+    <dependency
+        name=":nrunityandroidpermission-release:@aar"
+        simpleName=":nrunityandroidpermission-release"/>
+    <dependency
+        name=":nr_loader:@aar"
+        simpleName=":nr_loader"/>
+    <dependency
+        name=":nr_common:@aar"
+        simpleName=":nr_common"/>
+    <dependency
+        name=":Glasses-Display-Plug-Event-2.3.7:@aar"
+        simpleName=":Glasses-Display-Plug-Event-2.3.7"/>
+    <dependency
+        name=":NativeFilePicker:@aar"
+        simpleName=":NativeFilePicker"/>
+    <dependency
+        name=":unityandroidpermissions:@aar"
+        simpleName=":unityandroidpermissions"/>
+    <dependency
+        name=":@@:unityLibrary:xrmanifest.androidlib::release"
+        simpleName="Gradle.unityLibrary:xrmanifest.androidlib"/>
+  </package>
+</dependencies>

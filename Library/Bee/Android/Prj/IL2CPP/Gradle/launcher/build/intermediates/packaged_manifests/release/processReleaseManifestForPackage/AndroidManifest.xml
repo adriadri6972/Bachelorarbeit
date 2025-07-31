@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xreal.bachelor"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="30"
+        android:targetSdkVersion="36" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:glEsVersion="0x00030000" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen.multitouch"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen.multitouch.distinct"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACTIVITY_EMBEDDING" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+
+    <queries>
+        <intent>
+            <action android:name="ai.nreal.nrsdk.network.type.server" />
+        </intent>
+    </queries>
+
+    <uses-permission android:name="android.permission.VIBRATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:enableOnBackInvokedCallback="false"
+        android:extractNativeLibs="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name" >
+        <meta-data
+            android:name="unity.splash-mode"
+            android:value="0" />
+        <meta-data
+            android:name="unity.splash-enable"
+            android:value="True" />
+        <meta-data
+            android:name="unity.launch-fullscreen"
+            android:value="True" />
+        <meta-data
+            android:name="unity.render-outside-safearea"
+            android:value="True" />
+        <meta-data
+            android:name="notch.config"
+            android:value="portrait|landscape" />
+        <meta-data
+            android:name="unity.auto-report-fully-drawn"
+            android:value="true" />
+        <meta-data
+            android:name="unity.auto-set-game-state"
+            android:value="true" />
+        <meta-data
+            android:name="unity.strip-engine-code"
+            android:value="true" />
+
+        <activity
+            android:name="com.unity3d.player.UnityPlayerActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+            android:enabled="true"
+            android:exported="true"
+            android:hardwareAccelerated="false"
+            android:launchMode="singleTask"
+            android:resizeableActivity="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/UnityThemeSelector" >
+            <meta-data
+                android:name="unityplayer.UnityActivity"
+                android:value="true" />
+            <meta-data
+                android:name="WindowManagerPreference:FreeformWindowSize"
+                android:value="@string/FreeformWindowSize_maximize" />
+            <meta-data
+                android:name="WindowManagerPreference:FreeformWindowOrientation"
+                android:value="@string/FreeformWindowOrientation_portrait" />
+            <meta-data
+                android:name="notch_support"
+                android:value="true" />
+
+            <layout
+                android:minHeight="300px"
+                android:minWidth="400px" />
+        </activity>
+        <activity
+            android:name="ai.nreal.activitylife.NRXRActivity"
+            android:autoRemoveFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait"
+            android:taskAffinity="xreal.unity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ai.nreal.activitylife.NRShadowActivity"
+            android:autoRemoveFromRecents="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:resizeableActivity="true"
+            android:screenOrientation="reverseLandscape" />
+        <activity
+            android:name="ai.nreal.activitylife.UnityPlayerActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+            android:exported="true"
+            android:hardwareAccelerated="false"
+            android:launchMode="singleTask"
+            android:resizeableActivity="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="xreal.unity" >
+            <meta-data
+                android:name="unityplayer.UnityActivity"
+                android:value="true" />
+        </activity>
+        <activity
+            android:name="ai.nreal.activitylife.NRFakeActivity"
+            android:autoRemoveFromRecents="true"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+            android:excludeFromRecents="true"
+            android:hardwareAccelerated="false"
+            android:launchMode="singleTask"
+            android:resizeableActivity="true"
+            android:screenOrientation="reverseLandscape" />
+
+        <meta-data
+            android:name="nr_features"
+            android:value="multiResume" />
+
+        <service
+            android:name="ai.nreal.sdk.MediaProjectionService"
+            android:enabled="true"
+            android:exported="true"
+            android:foregroundServiceType="mediaProjection" />
+
+        <uses-library
+            android:name="libOpenCL.so"
+            android:required="false" />
+        <uses-library
+            android:name="libcdsprpc.so"
+            android:required="false" />
+
+        <uses-native-library
+            android:name="libnr_api.xreal.so"
+            android:required="false" /> <!-- <receiver -->
+        <!-- android:name=".receiver.UsbPermissionReceiver" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="false"> -->
+        <!-- &lt;!&ndash;setClass 后不需要写过滤条件&ndash;&gt; -->
+        <!-- &lt;!&ndash;            <intent-filter>&ndash;&gt; -->
+        <!-- &lt;!&ndash;                <action android:name="ai.nreal.vid.pid.13080.1059" />&ndash;&gt; -->
+        <!-- &lt;!&ndash;                <action android:name="ai.nreal.vid.pid.13080.1060" />&ndash;&gt; -->
+        <!-- &lt;!&ndash;            </intent-filter>&ndash;&gt; -->
+        <!-- </receiver> -->
+        <!-- 注册USB广播 改为同包名的进程使用静态注册, 其他进程使用动态注册;防止他们进程无法使用 -->
+        <receiver
+            android:name="com.xreal.glassesdisplayplugevent.receiver.UsbAttachDetachReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.xreal.glassesdisplayplugevent.provider.GlassesInitProvider"
+            android:authorities="com.xreal.bachelor.glassesdisplayplugevent.provider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" >
+        </provider>
+
+        <meta-data
+            android:name="nreal_sdk"
+            android:value="true" />
+        <meta-data
+            android:name="com.nreal.supportDevices"
+            android:value="1|XrealLight|2|XrealAir" />
+    </application>
+
+</manifest>

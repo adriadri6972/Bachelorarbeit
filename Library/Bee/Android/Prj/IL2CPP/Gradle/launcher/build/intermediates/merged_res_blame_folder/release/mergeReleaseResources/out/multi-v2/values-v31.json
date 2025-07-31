@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.xreal.bachelor.launcher-mergeReleaseResources-5:/values-v31/values-v31.xml",
+            "map": [
+                {
+                    "source": "D:\\Programme\\Unity\\Bachelorarbeit - Kopie\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\packageReleaseResources\\values-v31\\values-v31.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "609"
+                    }
+                }
+            ]
+        }
+    ]
+}

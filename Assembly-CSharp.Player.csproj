@@ -1,0 +1,1290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{F6DFA9B7-BCF6-A97A-CD6B-94F5402AD43B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>0169;USG0001</NoWarn>
+    <DefineConstants>UNITY_6000_1_6;UNITY_6000_1;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_1_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_ACCESSIBILITY;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;PLATFORM_EXTENDS_VULKAN_PIPELINE_CACHE;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;PLATFORM_HAS_ADDITIONAL_API_CHECKS;PLATFORM_HAS_GRAPHICS_JOBS_SUPPORT_CHECK_OVERRIDE;PLATFORM_HAS_BUGGY_MSAA_RESOLVE;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_IL2CPP;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_ANDROID_XR</DefineConstants>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\Player\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.23</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>6000.1.6f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\ExtensionsToggleGroup.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\SoftMaskScript.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\CurlyUI\CUIGraphic.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\HSVUtil.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ComboBox\DropDownList.cs" />
+    <Compile Include="Assets\exciteometer\EoM\EoM_DataReceiver.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module2_DataVisualization\Scripts\Timeline.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\DataLogger\DataLogger.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Scripts\Constants.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\ScrollRect\FancyScrollRectCell.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\Scroller\ScrollDirection.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\ShaderEffects\UILinearDodgeEffect.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module2_DataVisualization\Scripts\Helpers.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\ShaderEffects\UISoftAdditiveEffect.cs" />
+    <Compile Include="Assets\exciteometer\Scenes\ExampleURP_NewInputSystem\Scripts\CaptureControllersInputXRI.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\ReturnKeyTriggersButton.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\CardUI\Superellipse Creation\SuperellipsePoints.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\Scroller\MovementDirection.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\Scroller\Scroller.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\ScrollRect\IFancyScrollRectContext.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\SegmentedControl.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\CurlyUI\CUIText.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\Scripts\Examples\TransformMapping.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\DataLogger\SessionVariables.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\OnlineUI\Scripts\Canvas_Utils.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module2_DataVisualization\Scripts\TimeLineEntry.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\DataLogger\LoggerController.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\ReadOnlyAttribute.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\GridView\FancyCellGroup.cs" />
+    <Compile Include="Assets\MobileARTemplateAssets\UI\Scripts\CutoutMaskUI.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module2_DataVisualization\Scripts\ValueDisplayer.cs" />
+    <Compile Include="Assets\MobileARTemplateAssets\Scripts\ARTemplateMenuManager.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\Scripts\LSLOutlet.cs" />
+    <Compile Include="Assets\MobileARTemplateAssets\Scripts\ARFeatheredPlaneMeshVisualizerCompanion.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\LetterSpacing.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\OnlineUI\Scripts\MarkerInfoScript.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Scripts\EoM_SignalEmulator.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module2_DataVisualization\Scripts\ScreenShotDisplayer.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\UIVerticalScroller.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\ScrollSnapBase.cs" />
+    <Compile Include="Assets\exciteometer\Scenes\ExampleURP_NewInputSystem\InputActions\CustomInputActions.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\UIHighlightable.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\Scripts\LSLMarkerStream.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\VerticalScrollSnap.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\UIFlippable.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ReorderableList\ReorderableListDebug.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\OnlineUI\Scripts\SessionFolderData.cs" />
+    <Compile Include="Assets\MyStuff\Experiment.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\VR Extensions\VRInputModule.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\GridView\FancyGridViewCell.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\CardUI\Superellipse Creation\MeshCreator.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module2_DataVisualization\Scripts\ToolTip.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\ScrollRect\FancyScrollRectContext.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\BezierPath.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\ColorValues.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module2_DataVisualization\Scripts\ExciteOmeterMeter.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\ContentScrollSnapHorizontal.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\ColorSlider.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\FlowLayoutGroup.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\MenuSystem\MenuManager.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\Scroller\MovementType.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\IScrollSnap.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\FeaturesCalculation\SDNN.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Primitives\DiamondGraph.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\ToolTips\ToolTip.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\Demos\LSLTransformDemoOutlet.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module2_DataVisualization\Scripts\LineGraphData.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\LSL_inlets\LSL_Inlet_HR.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ReorderableList\ReorderableList.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\Accordion\AccordionElement.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\Core\FancyCell.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\MonoSpacing.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\ColorImage.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\OnlineUI\Scripts\LogMessageUI.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\FeaturesCalculation\ExciteOMeterCalculation.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module2_DataVisualization\Scripts\InstantMarkersData.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\Scripts\BaseInlet.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\Scripts\Examples\DemoInletForFloatSamples.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\Core\FancyScrollView.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\DataLogReceivers\MovementDataManager.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\ColorLabel.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\switchToRectTransform.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\SettingsManager\SettingsManager.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\RescalingPanels\RescaleDragPanel.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\FeaturesCalculation\RMSSD.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\ToolTips\BoundTooltip\BoundTooltipTrigger.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\Demos\StreamInfo.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module2_DataVisualization\Scripts\InstantMarkerItem.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\Scripts\LSLCommon.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\Scripts\AInlet.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\Scripts\LSLTimeSync.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\OnlineUI\Scripts\CustomMarkerScriptUI.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\ToolTips\HoverTooltip.cs" />
+    <Compile Include="Assets\MobileARTemplateAssets\Scripts\GoalManager.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\Scripts\ScriptOrder.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\Circle.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Primitives\UICornerCut.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\ScrollRectTweener.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\FeaturesCalculation\EoM_Base_FeatureCalculation.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\CardUI\2D Cards\CardStack2D.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\UI_Knob.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\ShineEffect.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\CableCurve.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\Stepper.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\SettingsManager\SettingsVariables.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\NicerOutline.cs" />
+    <Compile Include="Assets\exciteometer\Scenes\ExampleURP_NewInputSystem\Scripts\DesktopCameraController.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\ScrollSnap.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\PaginationManager.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\CurvedLayout.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\OnlineUI\Scripts\SignalInfoScript.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module2_DataVisualization\Scripts\SubGraphValueItem.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\Demos\CubeRotation.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\ExtentionMethods.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\Scroller\EasingCore.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\Gradient2.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\RescalingPanels\RescalePanel.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\DataLogger\ScreenRecorder.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\OnlineUI\Scripts\OnlineLineGraph.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\ToolTips\BoundTooltip\BoundTooltipItem.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\Events\ColorChangedEvent.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\CardUI\2D Cards\CardPopup2D.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module2_DataVisualization\Scripts\SessionListItem.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\CurlyUI\CUIMisc.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\CylinderText.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\UILineConnector.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\InputFocus.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Primitives\UIGridRenderer.cs" />
+    <Compile Include="Assets\Settings\Project Configuration\SceneTemplate_RotateCube.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Primitives\UILineTextureRenderer.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\UI_ScrollRectOcclusion.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\RangeSlider.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\Accordion\Tweening\TweenRunner.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module2_DataVisualization\Scripts\LineGraphItem.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\ScrollRectEx.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Scripts\ExciteOMeterManager.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\DataLogReceivers\MarkersReceiver.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\GridView\IFancyGridViewContext.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\UIParticleSystem.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\GridView\FancyGridView.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\SelectionBox\IBoxSelectable.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\HorizontalScrollSnap.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\NonDrawingGraphic.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module2_DataVisualization\Scripts\TimelineConstants.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\RadialSlider.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\Segment.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\ShaderEffects\UIAdditiveEffect.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\DataLogger\JsonHelper.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\OnlineUI\Scripts\QuickMarkerEoM.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Primitives\UILineRenderer.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Primitives\UICircle.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\CardUI\3D Cards\CardExpanding3D.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\ShaderEffects\UIMultiplyEffect.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\ScrollPositionController.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\PPIViewer.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module2_DataVisualization\Scripts\EOMdataloader.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\ShineEffector.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\ColorSampler.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\LSL_inlets\LSL_Inlet_ECG.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\ScrollRectLinker.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\UI_TweenScale.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\SelectionBox\ExampleSelectable.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\GridView\IFancyCellGroupContext.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\LSL_inlets\EoM_Base_Inlet.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\CardUI\Superellipse Creation\Triangulator.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\UIWindowBase.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\TileSizeFitter.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\MenuSystem\Menu.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\Demos\RandomMarker.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ReorderableList\ReorderableListElement.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\InputModules\GamePadInputModule.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\SelectionBox\SelectionBox.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\ExtensionsToggle.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\RescalingPanels\ResizePanel.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\MultiTouchScrollRect.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ComboBox\DropDownListButton.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\MenuSystem\SimpleMenu.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\CurlyUI\CUIImage.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\TextPic.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\Scripts\Examples\ScaleMapping.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\UIScrollToSelection.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\CurlyUI\CUIBezierCurve.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\LSL.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\ShaderEffects\UIImageCrop.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\RadialLayout.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module2_DataVisualization\Scripts\TimeMarker.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ComboBox\ComboBox.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Scripts\EoM_Events.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Scripts\ExciteOMeterOnlineUI.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\TestCompression.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\BoxSlider.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\VR Extensions\VRCursor.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\OfflineAnalysis\OfflineAnalysisManager.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\StepperSide.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\ShaderEffects\UIScreenEffect.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\CurvedText.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\Scripts\LSLTransformOutlet.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\Accordion\Tweening\FloatTween.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Primitives\UILineRendererList.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\ColorSliderImage.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\ToolTips\TooltipTrigger.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\OnlineUI\Scripts\OfflineAnalysisUI.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\CLZF2.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Primitives\UIPrimitiveBase.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ComboBox\DropDownListItem.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\DataLogReceivers\MovementCapturer.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\TableLayoutGroup.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\ColorPickerControl.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\InputFieldEnterSubmit.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ReorderableList\ReorderableListContent.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\UIScrollToSelectionXY.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\OnlineUI\Scripts\ReactInletUI.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\SVBoxSlider.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\Scripts\Examples\ExampleFloatInlet.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\UIExtensionMethods.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\ScrollRect\FancyScrollRect.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\GridView\FancyGridViewContext.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\CooldownButton.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\InputModules\AimerInputModule.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Primitives\UIPolygon.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\OnlineUI\Scripts\PlotGraphic.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\ColorPickerPresets.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\Gradient.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\ScrollRectExtensions.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\LSL_inlets\LSL_Inlet_RRi.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\CardUI\2D Cards\CardExpanding2D.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\SelectableScaler.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\DragCorrector.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\DataLogger\SessionVariablesController.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\Accordion\Accordion.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\Events\HSVChangedEvent.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module2_DataVisualization\Scripts\DataTypeSelector.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ComboBox\AutoCompleteComboBox.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\TiltWindow.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\RaycastMask.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\UISelectableExtension.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\FeaturesCalculation\HeadsetVelocityAcceleration.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\SetPropertyUtility.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\TabNavigationHelper.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Effects\BestFitOutline.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Layout\ScrollSnapScrollbarHelper.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\ScrollConflictManager.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\Scripts\Resolver.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\Accordion\Tweening\ITweenValue.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\HexColorField.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\OnlineUI\Scripts\MarkersUI.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\ColorPickerTester.cs" />
+    <Compile Include="Assets\exciteometer\Scenes\ExampleURP_NewInputSystem\Scripts\SimpleExperimentManager.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Scripts\Utilities\UI_InfiniteScroll.cs" />
+    <Compile Include="Assets\exciteometer\EoM\Module1_DataProcessing\Scripts\LSL_inlets\LSL_Inlet_ACC.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Resources\Shaders\UIAdditive.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle Add.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
+    <None Include="Assets\MyStuff\Resources\BaselineTasks.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Resources\Shaders\UIScreen.shader" />
+    <None Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle Multiply.shader" />
+    <None Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Resources\Shaders\UIMultiply.shader" />
+    <None Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Resources\Shaders\UILinearDodge.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle Alpha Blend.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Resources\Shaders\SoftMaskShader.shader" />
+    <None Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\Plugins\x86\liblsl.dll" />
+    <None Include="Assets\MobileARTemplateAssets\Shaders\ShadowReceiver\ShadowReceiverShaderFunctions.hlsl" />
+    <None Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle Premultiply Blend.shader" />
+    <None Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle VertexLit Blended.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
+    <None Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle MultiplyDouble.shader" />
+    <None Include="Assets\MyStuff\Resources\StressTesks.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle AddMultiply.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle Blend.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\MobileARTemplateAssets\UI\Fonts\OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Resources\Shaders\UISoftAdditive.shader" />
+    <None Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle AddSmooth.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Resources\Shaders\UIImageCrop.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\MobileARTemplateAssets\Shaders\URPShadowReceiver.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\unity-ui-extensions\Runtime\Resources\Shaders\UIParticleHidden.shader" />
+    <None Include="Assets\MobileARTemplateAssets\Shaders\PlaneOcclusionShader.shader" />
+    <None Include="Assets\exciteometer\EoM\Module1_DataProcessing\_ExternalPackages\LSL4Unity\Plugins\x86_64\liblsl.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GraphicsStateCollectionSerializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.GraphicsStateCollectionSerializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HierarchyCoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.HierarchyCoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputForUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.InputForUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MarshallingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.MarshallingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MultiplayerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.MultiplayerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ShaderVariantAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.ShaderVariantAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@56bff8827a7e\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\PackageCache\com.unity.ext.nunit@031a54704bff\net40\unity-custom\nunit.framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.2D.Runtime.Player.csproj">
+      <Project>{AF6E40C5-785E-5A92-DC82-F2BDE5E98EA4}</Project>
+      <Name>Unity.RenderPipelines.Universal.2D.Runtime.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.ForUI.Player.csproj">
+      <Project>{F998BFE5-FD1E-6E66-9ADB-7EC2758B3A0B}</Project>
+      <Name>Unity.InputSystem.ForUI.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.CoreUtils.Player.csproj">
+      <Project>{C25A2105-00D7-AB8D-3799-0ED0017AB699}</Project>
+      <Name>Unity.XR.CoreUtils.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.Player.csproj">
+      <Project>{571D0574-CD8F-FDE2-D882-EDA1D79345F8}</Project>
+      <Name>Unity.RenderPipeline.Universal.ShaderLibrary.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.Player.csproj">
+      <Project>{C1D354F4-4A7C-423A-B95F-C28E3096EA02}</Project>
+      <Name>Unity.RenderPipelines.Universal.Shaders.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Shared.Player.csproj">
+      <Project>{87581BDA-71CA-134A-614C-99697E13A6D6}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime.Shared.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Player.csproj">
+      <Project>{C891C35A-CC8E-1630-9860-615A8E422939}</Project>
+      <Name>Unity.Timeline.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.Player.csproj">
+      <Project>{B26AD2B6-17A9-9555-EA37-F891F73E989C}</Project>
+      <Name>UnityEngine.UI.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
+      <Project>{C0A82040-B184-9299-213E-9CF318C17079}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Player.csproj">
+      <Project>{257C3B34-D9AF-70F9-177D-FEEA66E8967D}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.XREAL.Player.csproj">
+      <Project>{690F5CE9-C4B1-A3E4-BFD9-11B84256CD18}</Project>
+      <Name>Unity.XR.XREAL.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARFoundation.Player.csproj">
+      <Project>{245A875F-2A6F-3FCC-7C3A-53ACF2B8D1EB}</Project>
+      <Name>Unity.XR.ARFoundation.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.GPUDriven.Runtime.Player.csproj">
+      <Project>{088DDAED-2763-088F-1CA6-AB459AFAA3BA}</Project>
+      <Name>Unity.RenderPipelines.GPUDriven.Runtime.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARFoundation.InternalUtils.Player.csproj">
+      <Project>{C4523E57-7C02-AC4D-DDD0-8E2B6EA2566E}</Project>
+      <Name>Unity.XR.ARFoundation.InternalUtils.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARSubsystems.Player.csproj">
+      <Project>{9256A6D0-1FC7-F2C2-89D5-1DBFDCB59F01}</Project>
+      <Name>Unity.XR.ARSubsystems.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Collections.Player.csproj">
+      <Project>{1DFBE881-DE41-2A98-660D-BE74D7C763F3}</Project>
+      <Name>Unity.Collections.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARFoundation.VisualScripting.Player.csproj">
+      <Project>{575115F9-A933-4FD6-0C84-0BCB41AE34D9}</Project>
+      <Name>Unity.XR.ARFoundation.VisualScripting.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.Player.csproj">
+      <Project>{ADFB71F6-B0D1-BDC3-8C8D-3BD981B03945}</Project>
+      <Name>UnityEngine.XR.LegacyInputHelpers.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="NativeFilePicker.Runtime.Player.csproj">
+      <Project>{C7DD8D05-BBA8-8598-2EDB-D799BB5F88DD}</Project>
+      <Name>NativeFilePicker.Runtime.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.Player.csproj">
+      <Project>{F3A4264A-1AC6-C6F7-57FC-C5E81F8BA0BD}</Project>
+      <Name>Unity.RenderPipelines.Universal.Config.Runtime.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Player.csproj">
+      <Project>{08FB06FB-3E28-C122-973B-39309ECCB2A1}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.SpatialTracking.Player.csproj">
+      <Project>{3F80A833-CAF3-1AC5-0ACF-15B6BA3FBA20}</Project>
+      <Name>UnityEngine.SpatialTracking.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Multiplayer.Center.Common.Player.csproj">
+      <Project>{AD47870D-5DAC-A220-FA49-C1283A5A7BE8}</Project>
+      <Name>Unity.Multiplayer.Center.Common.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj">
+      <Project>{344EBD90-C518-BC88-5EBA-C5F15F62E76D}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Player.csproj">
+      <Project>{125B2329-4A76-833D-F96A-A4919D8C02E2}</Project>
+      <Name>Unity.XR.Management.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
+      <Project>{00E822BF-053E-5DA9-E6C9-4684ABE3E7FD}</Project>
+      <Name>Unity.TextMeshPro.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Player.csproj">
+      <Project>{216194D2-D4AC-E695-2EF8-6E5E293966C8}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Player.csproj">
+      <Project>{89EF336A-25B5-D6DD-8AD9-64CF2677A6D0}</Project>
+      <Name>Unity.Mathematics.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARCore.Player.csproj">
+      <Project>{6ABEA9EC-B852-9CBE-A561-7AB844056705}</Project>
+      <Name>Unity.XR.ARCore.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.Player.csproj">
+      <Project>{7119A916-71C8-0DF2-D65C-EE6F3CAEC42E}</Project>
+      <Name>Unity.RenderPipelines.Universal.Runtime.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.Player.csproj">
+      <Project>{3DCE602E-22E5-6CD9-37C1-71592E3B2436}</Project>
+      <Name>Unity.Burst.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Tutorials.Core.Player.csproj">
+      <Project>{CEE13137-5AAD-7B90-38AF-0A4C7B83AEF9}</Project>
+      <Name>Unity.Tutorials.Core.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
+      <Project>{FF6DF3F1-9D63-39E3-9EDF-6A767F5F8A31}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rendering.LightTransport.Runtime.Player.csproj">
+      <Project>{DA79CABD-0B51-059F-06BC-95E2D46B200E}</Project>
+      <Name>Unity.Rendering.LightTransport.Runtime.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.Player.csproj">
+      <Project>{F77CB67E-078F-D554-F6F4-797DEDD34198}</Project>
+      <Name>Unity.InputSystem.Player</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,94 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "nractivitylife_6-release"
+  }
+  digests {
+    sha256: "j:\300P\240\201\030\276\0212\366\362a\221\300{K\355Lf^\001D\016\214\220\245T\270\321y\233"
+  }
+}
+library {
+  maven_library {
+    artifactId: "Log-Control-1.2"
+  }
+  digests {
+    sha256: "\266\227/\360\025\310d\333\246\346\t*\031\221,UY\256\365\221\2448\275\231J4\332\340\363@\327\274"
+  }
+}
+library {
+  maven_library {
+    artifactId: "nrunityandroidpermission-release"
+  }
+  digests {
+    sha256: "9\257\211\235\246\b\372r\325\311\374\bt\v\367?\215B\336\207\367\2166T\263\304\371\341\262;\314~"
+  }
+}
+library {
+  maven_library {
+    artifactId: "nr_loader"
+  }
+  digests {
+    sha256: "\365\223k.\207gF\357\020\262\376&\212FJY\331\270\231\232<\255H\263\023\337\264l\016\217\365)"
+  }
+}
+library {
+  maven_library {
+    artifactId: "nr_common"
+  }
+  digests {
+    sha256: "\344\036\214I\021\305\211\203\212\311\207m\347b\2077nn\275\364\026<\244<>Ov\373\\\'\266\311"
+  }
+}
+library {
+  maven_library {
+    artifactId: "Glasses-Display-Plug-Event-2.3.7"
+  }
+  digests {
+    sha256: "\254\3378\005;8\216E\352\277T\247\355l\30632ORa/d\304\261\375wo\312\0262@\247"
+  }
+}
+library {
+  maven_library {
+    artifactId: "NativeFilePicker"
+  }
+  digests {
+    sha256: "g\212\303g\312\346\316T[\200\237Y]\37504\3622|\357\020$R\027wW\215\253\275\226\026\366"
+  }
+}
+library {
+  maven_library {
+    artifactId: "unityandroidpermissions"
+  }
+  digests {
+    sha256: "\304\275\200/\267\017\253\2569\233,4\201\275\362\370\021i,\2045\246\3123t\313N\032\270\017h\272"
+  }
+}
+library {
+  digests {
+    sha256: "C\272m\220\017s\360\327\343\276\277\346\030\271C01\024\005z\027\217\234\251k\346\303\271RI\337G"
+  }
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 0
+  dependency_index: 1
+  dependency_index: 2
+  dependency_index: 3
+  dependency_index: 4
+  dependency_index: 5
+  dependency_index: 6
+  dependency_index: 7
+  dependency_index: 8
+}
+repositories {
+  maven_repo {
+    url: "https://dl.google.com/dl/android/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://repo.maven.apache.org/maven2/"
+  }
+}

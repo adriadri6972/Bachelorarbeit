@@ -1,0 +1,729 @@
+-target:library
+-out:"Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp.dll"
+-refout:"Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp.ref.dll"
+-define:UNITY_6000_1_6
+-define:UNITY_6000_1
+-define:UNITY_6000
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:UNITY_2022_1_OR_NEWER
+-define:UNITY_2022_2_OR_NEWER
+-define:UNITY_2022_3_OR_NEWER
+-define:UNITY_2023_1_OR_NEWER
+-define:UNITY_2023_2_OR_NEWER
+-define:UNITY_2023_3_OR_NEWER
+-define:UNITY_6000_0_OR_NEWER
+-define:UNITY_6000_1_OR_NEWER
+-define:UNITY_INCLUDE_TESTS
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_EDITOR_GAME_SERVICES
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_ENGINE_CODE_STRIPPING
+-define:ENABLE_ONSCREEN_KEYBOARD
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:ENABLE_MARSHALLING_TESTS
+-define:ENABLE_VIDEO
+-define:ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:ENABLE_ACCESSIBILITY
+-define:TEXTCORE_1_0_OR_NEWER
+-define:EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED
+-define:PLATFORM_ANDROID
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:UNITY_CAN_SHOW_SPLASH_SCREEN
+-define:UNITY_HAS_GOOGLEVR
+-define:UNITY_HAS_TANGO
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_ETC_COMPRESSION
+-define:PLATFORM_EXTENDS_VULKAN_DEVICE
+-define:PLATFORM_HAS_MULTIPLE_SWAPCHAINS
+-define:UNITY_ANDROID_SUPPORTS_SHADOWFILES
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:PLATFORM_EXTENDS_VULKAN_PIPELINE_CACHE
+-define:PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS
+-define:PLATFORM_HAS_ADDITIONAL_API_CHECKS
+-define:PLATFORM_HAS_GRAPHICS_JOBS_SUPPORT_CHECK_OVERRIDE
+-define:PLATFORM_HAS_BUGGY_MSAA_RESOLVE
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:NET_STANDARD_2_0
+-define:NET_STANDARD
+-define:NET_STANDARD_2_1
+-define:NETSTANDARD
+-define:NETSTANDARD2_1
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-define:UNITY_ANDROID_XR
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.AdaptivePerformanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.BuildProfileModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreBusinessMetricsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.EmbreeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.GIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphicsStateCollectionSerializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.GridAndSnapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.MultiplayerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.PropertiesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.SafeModeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.ShaderFoundryModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.SketchUpModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.TreeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIAutomationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.VFXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.GraphicsStateCollectionSerializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.HierarchyCoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputForUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.MarshallingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.MultiplayerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.ShaderVariantAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"Library/PackageCache/com.unity.collections@56bff8827a7e/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
+-r:"Library/PackageCache/com.unity.ext.nunit@031a54704bff/net40/unity-custom/nunit.framework.dll"
+-r:"Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.dll"
+-r:"Library/PackageCache/com.unity.testtools.codecoverage@205a02cbcb39/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/NativeFilePicker.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/NativeFilePicker.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/PPv2URPConverters.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.2D.Sprite.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Burst.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Burst.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Collections.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Collections.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.EditorCoroutines.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.InputSystem.ForUI.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.InputSystem.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.InternalAPIEditorBridge.007.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.InternalAPIEngineBridge.007.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Mathematics.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Mathematics.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Multiplayer.Center.Common.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Multiplayer.Center.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Rendering.LightTransport.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Rendering.LightTransport.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.RenderPipelines.Core.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.RenderPipelines.Core.Editor.Shared.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.RenderPipelines.Core.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.RenderPipelines.Core.Runtime.Shared.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.RenderPipelines.Core.ShaderLibrary.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.RenderPipelines.GPUDriven.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.RenderPipelines.Universal.2D.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.RenderPipelines.Universal.Config.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.RenderPipelines.Universal.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.RenderPipelines.Universal.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.RenderPipelines.Universal.Shaders.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Rider.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Searcher.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Settings.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.ShaderGraph.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.TextMeshPro.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.TextMeshPro.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Timeline.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Timeline.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Tutorials.Core.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Tutorials.Core.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.VisualStudio.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.ARAnalytics.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.ARCore.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.ARCore.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.ARFoundation.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.ARFoundation.InternalUtils.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.ARFoundation.InternalUtils.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.ARFoundation.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.ARFoundation.VisualScripting.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.ARFoundation.VisualScripting.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.ARKit.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.ARKit.FaceTracking.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.ARKit.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.ARSubsystems.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.ARSubsystems.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.CoreUtils.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.CoreUtils.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.Interaction.Toolkit.Analytics.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.Interaction.Toolkit.Analytics.Hooks.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.Interaction.Toolkit.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.Interaction.Toolkit.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.Management.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.Management.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.Simulation.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.Simulation.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.XREAL.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.XR.XREAL.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEditor.SpatialTracking.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEditor.XR.LegacyInputHelpers.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEngine.SpatialTracking.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEngine.UI.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/6000.1.6f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/exciteometer/EoM/EoM_DataReceiver.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/OnlineUI/Scripts/Canvas_Utils.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/OnlineUI/Scripts/CustomMarkerScriptUI.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/OnlineUI/Scripts/LogMessageUI.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/OnlineUI/Scripts/MarkerInfoScript.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/OnlineUI/Scripts/MarkersUI.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/OnlineUI/Scripts/OfflineAnalysisUI.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/OnlineUI/Scripts/OnlineLineGraph.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/OnlineUI/Scripts/PlotGraphic.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/OnlineUI/Scripts/QuickMarkerEoM.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/OnlineUI/Scripts/ReactInletUI.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/OnlineUI/Scripts/SessionFolderData.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/OnlineUI/Scripts/SignalInfoScript.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/DataLogger/DataLogger.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/DataLogger/JsonHelper.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/DataLogger/LoggerController.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/DataLogger/ScreenRecorder.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/DataLogger/SessionVariables.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/DataLogger/SessionVariablesController.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/DataLogReceivers/MarkersReceiver.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/DataLogReceivers/MovementCapturer.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/DataLogReceivers/MovementDataManager.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/FeaturesCalculation/EoM_Base_FeatureCalculation.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/FeaturesCalculation/ExciteOMeterCalculation.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/FeaturesCalculation/HeadsetVelocityAcceleration.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/FeaturesCalculation/RMSSD.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/FeaturesCalculation/SDNN.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/LSL_inlets/EoM_Base_Inlet.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/LSL_inlets/LSL_Inlet_ACC.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/LSL_inlets/LSL_Inlet_ECG.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/LSL_inlets/LSL_Inlet_HR.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/LSL_inlets/LSL_Inlet_RRi.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/OfflineAnalysis/OfflineAnalysisManager.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/SettingsManager/SettingsManager.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/Scripts/SettingsManager/SettingsVariables.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/LSL4Unity/Demos/CubeRotation.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/LSL4Unity/Demos/LSLTransformDemoOutlet.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/LSL4Unity/Demos/RandomMarker.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/LSL4Unity/Demos/StreamInfo.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/LSL4Unity/LSL.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/LSL4Unity/Scripts/AInlet.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/LSL4Unity/Scripts/BaseInlet.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/LSL4Unity/Scripts/Examples/DemoInletForFloatSamples.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/LSL4Unity/Scripts/Examples/ExampleFloatInlet.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/LSL4Unity/Scripts/Examples/ScaleMapping.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/LSL4Unity/Scripts/Examples/TransformMapping.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/LSL4Unity/Scripts/LSLCommon.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/LSL4Unity/Scripts/LSLMarkerStream.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/LSL4Unity/Scripts/LSLOutlet.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/LSL4Unity/Scripts/LSLTimeSync.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/LSL4Unity/Scripts/LSLTransformOutlet.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/LSL4Unity/Scripts/Resolver.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/LSL4Unity/Scripts/ScriptOrder.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/Accordion/Accordion.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/Accordion/AccordionElement.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/Accordion/Tweening/FloatTween.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/Accordion/Tweening/ITweenValue.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/Accordion/Tweening/TweenRunner.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/BoxSlider.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ColorPicker/ColorImage.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ColorPicker/ColorLabel.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ColorPicker/ColorPickerControl.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ColorPicker/ColorPickerPresets.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ColorPicker/ColorPickerTester.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ColorPicker/ColorSampler.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ColorPicker/ColorSlider.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ColorPicker/ColorSliderImage.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ColorPicker/ColorValues.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ColorPicker/Events/ColorChangedEvent.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ColorPicker/Events/HSVChangedEvent.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ColorPicker/HexColorField.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ColorPicker/HSVUtil.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ColorPicker/SVBoxSlider.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ColorPicker/TiltWindow.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ComboBox/AutoCompleteComboBox.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ComboBox/ComboBox.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ComboBox/DropDownList.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ComboBox/DropDownListButton.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ComboBox/DropDownListItem.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/CooldownButton.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/InputFocus.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/MultiTouchScrollRect.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/RadialSlider.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/RangeSlider.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ReorderableList/ReorderableList.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ReorderableList/ReorderableListContent.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ReorderableList/ReorderableListDebug.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/ReorderableList/ReorderableListElement.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/RescalingPanels/RescaleDragPanel.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/RescalingPanels/RescalePanel.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/RescalingPanels/ResizePanel.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/Segment.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/SegmentedControl.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/SelectionBox/ExampleSelectable.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/SelectionBox/IBoxSelectable.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/SelectionBox/SelectionBox.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/Stepper.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/StepperSide.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/TextPic.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Controls/UI_Knob.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/BestFitOutline.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/CurlyUI/CUIBezierCurve.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/CurlyUI/CUIGraphic.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/CurlyUI/CUIImage.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/CurlyUI/CUIMisc.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/CurlyUI/CUIText.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/CurvedText.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/CylinderText.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/Gradient.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/Gradient2.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/LetterSpacing.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/MonoSpacing.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/NicerOutline.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/RaycastMask.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/ShaderEffects/UIAdditiveEffect.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/ShaderEffects/UIImageCrop.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/ShaderEffects/UILinearDodgeEffect.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/ShaderEffects/UIMultiplyEffect.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/ShaderEffects/UIScreenEffect.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/ShaderEffects/UISoftAdditiveEffect.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/ShineEffect.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/ShineEffector.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/SoftMaskScript.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/UIFlippable.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Effects/UIParticleSystem.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/InputModules/AimerInputModule.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/InputModules/GamePadInputModule.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/CardUI/2D Cards/CardExpanding2D.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/CardUI/2D Cards/CardPopup2D.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/CardUI/2D Cards/CardStack2D.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/CardUI/3D Cards/CardExpanding3D.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/CardUI/Superellipse Creation/MeshCreator.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/CardUI/Superellipse Creation/SuperellipsePoints.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/CardUI/Superellipse Creation/Triangulator.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/ContentScrollSnapHorizontal.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/CurvedLayout.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/FancyScrollView/Core/FancyCell.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/FancyScrollView/Core/FancyScrollView.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/FancyScrollView/GridView/FancyCellGroup.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/FancyScrollView/GridView/FancyGridView.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/FancyScrollView/GridView/FancyGridViewCell.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/FancyScrollView/GridView/FancyGridViewContext.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/FancyScrollView/GridView/IFancyCellGroupContext.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/FancyScrollView/GridView/IFancyGridViewContext.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/FancyScrollView/Scroller/EasingCore.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/FancyScrollView/Scroller/MovementDirection.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/FancyScrollView/Scroller/MovementType.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/FancyScrollView/Scroller/ScrollDirection.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/FancyScrollView/Scroller/Scroller.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/FancyScrollView/ScrollRect/FancyScrollRect.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/FancyScrollView/ScrollRect/FancyScrollRectCell.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/FancyScrollView/ScrollRect/FancyScrollRectContext.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/FancyScrollView/ScrollRect/IFancyScrollRectContext.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/FlowLayoutGroup.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/HorizontalScrollSnap.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/IScrollSnap.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/RadialLayout.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/ScrollPositionController.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/ScrollSnap.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/ScrollSnapBase.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/ScrollSnapScrollbarHelper.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/TableLayoutGroup.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/TileSizeFitter.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/UIVerticalScroller.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Layout/VerticalScrollSnap.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/MenuSystem/Menu.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/MenuSystem/MenuManager.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/MenuSystem/SimpleMenu.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Primitives/DiamondGraph.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Primitives/UICircle.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Primitives/UICornerCut.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Primitives/UIGridRenderer.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Primitives/UILineRenderer.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Primitives/UILineRendererList.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Primitives/UILineTextureRenderer.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Primitives/UIPolygon.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Primitives/UIPrimitiveBase.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/TabNavigationHelper.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/ToolTips/BoundTooltip/BoundTooltipItem.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/ToolTips/BoundTooltip/BoundTooltipTrigger.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/ToolTips/HoverTooltip.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/ToolTips/ToolTip.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/ToolTips/TooltipTrigger.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/UIWindowBase.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/BezierPath.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/CableCurve.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/Circle.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/CLZF2.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/DragCorrector.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/ExtensionsToggle.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/ExtensionsToggleGroup.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/ExtentionMethods.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/InputFieldEnterSubmit.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/NonDrawingGraphic.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/PaginationManager.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/PPIViewer.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/ReadOnlyAttribute.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/ReturnKeyTriggersButton.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/ScrollConflictManager.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/ScrollRectEx.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/ScrollRectExtensions.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/ScrollRectLinker.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/ScrollRectTweener.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/SelectableScaler.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/SetPropertyUtility.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/switchToRectTransform.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/TestCompression.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/UIExtensionMethods.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/UIHighlightable.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/UILineConnector.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/UIScrollToSelection.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/UIScrollToSelectionXY.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/UISelectableExtension.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/UI_InfiniteScroll.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/UI_ScrollRectOcclusion.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/Utilities/UI_TweenScale.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/VR Extensions/VRCursor.cs"
+"Assets/exciteometer/EoM/Module1_DataProcessing/_ExternalPackages/unity-ui-extensions/Runtime/Scripts/VR Extensions/VRInputModule.cs"
+"Assets/exciteometer/EoM/Module2_DataVisualization/Scripts/DataTypeSelector.cs"
+"Assets/exciteometer/EoM/Module2_DataVisualization/Scripts/EOMdataloader.cs"
+"Assets/exciteometer/EoM/Module2_DataVisualization/Scripts/ExciteOmeterMeter.cs"
+"Assets/exciteometer/EoM/Module2_DataVisualization/Scripts/Helpers.cs"
+"Assets/exciteometer/EoM/Module2_DataVisualization/Scripts/InstantMarkerItem.cs"
+"Assets/exciteometer/EoM/Module2_DataVisualization/Scripts/InstantMarkersData.cs"
+"Assets/exciteometer/EoM/Module2_DataVisualization/Scripts/LineGraphData.cs"
+"Assets/exciteometer/EoM/Module2_DataVisualization/Scripts/LineGraphItem.cs"
+"Assets/exciteometer/EoM/Module2_DataVisualization/Scripts/ScreenShotDisplayer.cs"
+"Assets/exciteometer/EoM/Module2_DataVisualization/Scripts/SessionListItem.cs"
+"Assets/exciteometer/EoM/Module2_DataVisualization/Scripts/SubGraphValueItem.cs"
+"Assets/exciteometer/EoM/Module2_DataVisualization/Scripts/Timeline.cs"
+"Assets/exciteometer/EoM/Module2_DataVisualization/Scripts/TimelineConstants.cs"
+"Assets/exciteometer/EoM/Module2_DataVisualization/Scripts/TimeLineEntry.cs"
+"Assets/exciteometer/EoM/Module2_DataVisualization/Scripts/TimeMarker.cs"
+"Assets/exciteometer/EoM/Module2_DataVisualization/Scripts/ToolTip.cs"
+"Assets/exciteometer/EoM/Module2_DataVisualization/Scripts/ValueDisplayer.cs"
+"Assets/exciteometer/EoM/Scripts/Constants.cs"
+"Assets/exciteometer/EoM/Scripts/EoM_Events.cs"
+"Assets/exciteometer/EoM/Scripts/EoM_SignalEmulator.cs"
+"Assets/exciteometer/EoM/Scripts/ExciteOMeterManager.cs"
+"Assets/exciteometer/EoM/Scripts/ExciteOMeterOnlineUI.cs"
+"Assets/exciteometer/Scenes/ExampleURP_NewInputSystem/InputActions/CustomInputActions.cs"
+"Assets/exciteometer/Scenes/ExampleURP_NewInputSystem/Scripts/CaptureControllersInputXRI.cs"
+"Assets/exciteometer/Scenes/ExampleURP_NewInputSystem/Scripts/DesktopCameraController.cs"
+"Assets/exciteometer/Scenes/ExampleURP_NewInputSystem/Scripts/SimpleExperimentManager.cs"
+"Assets/MobileARTemplateAssets/Scripts/ARFeatheredPlaneMeshVisualizerCompanion.cs"
+"Assets/MobileARTemplateAssets/Scripts/ARTemplateMenuManager.cs"
+"Assets/MobileARTemplateAssets/Scripts/GoalManager.cs"
+"Assets/MobileARTemplateAssets/UI/Scripts/CutoutMaskUI.cs"
+"Assets/MyStuff/Experiment.cs"
+"Assets/Settings/Project Configuration/SceneTemplate_RotateCube.cs"
+-langversion:9.0
+/deterministic
+/optimize-
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+/nowarn:0169
+/nowarn:0649
+/nowarn:0282
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+/additionalfile:"Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp.UnityAdditionalFile.txt"

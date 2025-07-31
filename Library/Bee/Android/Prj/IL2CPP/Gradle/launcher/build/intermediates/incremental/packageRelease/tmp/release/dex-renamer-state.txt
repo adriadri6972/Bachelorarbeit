@@ -1,0 +1,4 @@
+#Mon Jun 23 12:20:54 CEST 2025
+base.0=D\:\\Programme\\Unity\\Bachelorarbeit - Kopie\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,37 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.UnityTechnologies.XR.Manifest" >
+4
+5    <uses-sdk android:minSdkVersion="30" />
+6
+7    <uses-permission android:name="android.permission.VIBRATION" />
+7-->D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:8:3-66
+7-->D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:8:20-63
+8    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+8-->D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:9:3-69
+8-->D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:9:20-66
+9    <uses-permission android:name="android.permission.CAMERA" />
+9-->D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:10:3-63
+9-->D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:10:20-60
+10
+11    <application>
+11-->D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:3:3-7:17
+12        <activity android:name="com.unity3d.player.UnityPlayerActivity" />
+12-->D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:4:5-71
+12-->D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:4:15-68
+13
+14        <meta-data
+14-->D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:5:5-64
+15            android:name="nreal_sdk"
+15-->D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:5:16-40
+16            android:value="true" />
+16-->D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:5:41-61
+17        <meta-data
+17-->D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:6:5-98
+18            android:name="com.nreal.supportDevices"
+18-->D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:6:16-55
+19            android:value="1|XrealLight|2|XrealAir" />
+19-->D:\Programme\Unity\Bachelorarbeit - Kopie\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:6:56-95
+20    </application>
+21
+22</manifest>

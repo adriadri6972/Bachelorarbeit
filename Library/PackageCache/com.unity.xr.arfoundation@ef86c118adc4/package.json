@@ -1,0 +1,45 @@
+{
+  "name": "com.unity.xr.arfoundation",
+  "displayName": "AR Foundation",
+  "version": "6.1.1",
+  "unity": "6000.0",
+  "description": "AR Foundation enables you to create multi-platform augmented reality (AR) apps with Unity. To learn more about AR Foundation, click the Documentation link above.",
+  "keywords": [
+    "xreditorsubsystem",
+    "xr",
+    "ar",
+    "augmented",
+    "mixed",
+    "reality",
+    "foundation",
+    "core",
+    "subsystem",
+    "simulation",
+    "visualscripting"
+  ],
+  "dependencies": {
+    "com.unity.editorcoroutines": "1.0.0",
+    "com.unity.inputsystem": "1.6.3",
+    "com.unity.xr.core-utils": "2.5.1",
+    "com.unity.xr.management": "4.4.0",
+    "com.unity.ugui": "2.0.0",
+    "com.unity.mathematics": "1.2.6",
+    "com.unity.modules.particlesystem": "1.0.0",
+    "com.unity.modules.ui": "1.0.0",
+    "com.unity.modules.unityanalytics": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0"
+  },
+  "_upm": {
+    "changelog": "### Added\n\n- Added support for soft occlusion when depth data is provided in a linear format.\n\n### Fixed\n\n- Fixed the `Cinfo.GetHashCode` method in `XRAnchorSubsystemDescriptor` so that it correctly includes all values of the struct in the hash calculation.\n- Fixed the `Cinfo.Equals` method in `XRAnchorSubsystemDescriptor` so that it correctly checks all values of the struct for equality.\n- Fixed `SoftOcclusionPreprocessing.shader` so that it no longer logs a warning when included in an Android build.\n- Fixed `SimulationImageTrackingSubsystem` behavior to not throw an exception when stopping and restarting the subsystem through the enabling and disabling of the `ARTrackedImageManager` ([ARFB-554](https://issuetracker.unity3d.com/product/unity/issues/guid/ARFB-554)).\n- Fixed texture management so that if you disable the AR Occlusion Manager component while your app is running on a Meta Quest device, this no longer causes your app to unexpectedly quit when you later deinitialize the XR Loader. This bug fix requires that you upgrade your OpenXR Plug-in version to 1.15.0-pre.1 or newer.\n- Fixed the XR Simulation native plugins so that they no longer throw `DllNotFoundException` on Windows ARM64 systems."
+  },
+  "upmCi": {
+    "footprint": "23f5ff2a0c0d30ef89e8002e38ad508fd28c04b6"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.1/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/arfoundation.git",
+    "type": "git",
+    "revision": "ec6bcceda5f2388b335d9f1e74bd40771d079dff"
+  },
+  "_fingerprint": "ef86c118adc4f76878c64ef2ecf492bd624c7f84"
+}

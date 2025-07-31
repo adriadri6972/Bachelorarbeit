@@ -1,0 +1,4716 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - ARStressExperiment
+    - Assets.LSL4Unity.Scripts.Resolver
+    - ExciteOMeter.ExciteOMeterCalculation
+    - ExciteOMeter.ExciteOMeterManager
+    - ExciteOMeter.HeadsetVelocityAcceleration
+    - ExciteOMeter.LSL_Inlet_HR
+    - ExciteOMeter.LSL_Inlet_RRi
+    - ExciteOMeter.LoggerController
+    - ExciteOMeter.MarkersReceiver
+    - ExciteOMeter.MovementDataManager
+    - ExciteOMeter.OnlineLineGraph
+    - ExciteOMeter.RMSSD
+    - ExciteOMeter.ReactInletUI
+    - ExciteOMeter.SDNN
+    - ExciteOMeter.SessionVariablesController
+    - ExciteOMeter.SettingsManager
+    - ExciteOMeter.Vizualisation.SubGraphValueItem
+    - ExciteOMeter.Vizualisation.ValueDisplayer
+    - ScreenRecorder
+    - UnityEngine.UI.Extensions.UILineRenderer
+    Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
+    - UnityEngine.InputSystem.InputSettings
+    - UnityEngine.InputSystem.InputSystemObject
+    - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    - UnityEngine.InputSystem.XR.TrackedPoseDriver
+    Unity.RenderPipelines.Core.Runtime:
+    - UnityEngine.Rendering.UI.DebugUIHandlerBitField
+    - UnityEngine.Rendering.UI.DebugUIHandlerButton
+    - UnityEngine.Rendering.UI.DebugUIHandlerCanvas
+    - UnityEngine.Rendering.UI.DebugUIHandlerColor
+    - UnityEngine.Rendering.UI.DebugUIHandlerContainer
+    - UnityEngine.Rendering.UI.DebugUIHandlerEnumField
+    - UnityEngine.Rendering.UI.DebugUIHandlerEnumHistory
+    - UnityEngine.Rendering.UI.DebugUIHandlerFloatField
+    - UnityEngine.Rendering.UI.DebugUIHandlerFoldout
+    - UnityEngine.Rendering.UI.DebugUIHandlerGroup
+    - UnityEngine.Rendering.UI.DebugUIHandlerHBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerIndirectFloatField
+    - UnityEngine.Rendering.UI.DebugUIHandlerIndirectToggle
+    - UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    - UnityEngine.Rendering.UI.DebugUIHandlerMessageBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerObject
+    - UnityEngine.Rendering.UI.DebugUIHandlerObjectList
+    - UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
+    - UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    - UnityEngine.Rendering.UI.DebugUIHandlerPersistentCanvas
+    - UnityEngine.Rendering.UI.DebugUIHandlerProgressBar
+    - UnityEngine.Rendering.UI.DebugUIHandlerRenderingLayerField
+    - UnityEngine.Rendering.UI.DebugUIHandlerRow
+    - UnityEngine.Rendering.UI.DebugUIHandlerToggle
+    - UnityEngine.Rendering.UI.DebugUIHandlerToggleHistory
+    - UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    - UnityEngine.Rendering.UI.DebugUIHandlerVBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerValue
+    - UnityEngine.Rendering.UI.DebugUIHandlerValueTuple
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector2
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector3
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector4
+    - UnityEngine.Rendering.UI.UIFoldout
+    Unity.RenderPipelines.Core.Runtime.dll:
+    - UnityEngine.Rendering.ProbeVolumesOptions
+    - UnityEngine.Rendering.VolumeProfile
+    Unity.RenderPipelines.Universal.Editor.dll:
+    - UnityEditor.Rendering.Universal.UniversalProjectSettings
+    Unity.RenderPipelines.Universal.Runtime.dll:
+    - UnityEngine.Rendering.Universal.Bloom
+    - UnityEngine.Rendering.Universal.ChannelMixer
+    - UnityEngine.Rendering.Universal.ChromaticAberration
+    - UnityEngine.Rendering.Universal.ColorAdjustments
+    - UnityEngine.Rendering.Universal.ColorCurves
+    - UnityEngine.Rendering.Universal.ColorLookup
+    - UnityEngine.Rendering.Universal.DepthOfField
+    - UnityEngine.Rendering.Universal.FilmGrain
+    - UnityEngine.Rendering.Universal.LensDistortion
+    - UnityEngine.Rendering.Universal.LiftGammaGain
+    - UnityEngine.Rendering.Universal.MotionBlur
+    - UnityEngine.Rendering.Universal.PaniniProjection
+    - UnityEngine.Rendering.Universal.PostProcessData
+    - UnityEngine.Rendering.Universal.ScreenSpaceLensFlare
+    - UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights
+    - UnityEngine.Rendering.Universal.SplitToning
+    - UnityEngine.Rendering.Universal.Tonemapping
+    - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+    - UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings
+    - UnityEngine.Rendering.Universal.UniversalRendererData
+    - UnityEngine.Rendering.Universal.Vignette
+    - UnityEngine.Rendering.Universal.WhiteBalance
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_InputField
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    Unity.XR.ARCore.Editor.dll:
+    - UnityEditor.XR.ARCore.ARCoreSettings
+    Unity.XR.ARFoundation.dll:
+    - UnityEngine.XR.ARFoundation.ARBackgroundRendererFeature
+    Unity.XR.ARKit.Editor.dll:
+    - UnityEditor.XR.ARKit.ARKitSettings
+    Unity.XR.ARKit.dll:
+    - UnityEngine.XR.ARKit.ARKitLoader
+    Unity.XR.CoreUtils.dll:
+    - Unity.XR.CoreUtils.XROrigin
+    Unity.XR.Interaction.Toolkit:
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulatorSettings
+    - UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings
+    Unity.XR.Interaction.Toolkit.Editor.dll:
+    - UnityEditor.XR.Interaction.Toolkit.XRInteractionEditorSettings
+    Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll:
+    - UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ClimbTeleportDestinationIndicator
+    - UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ControllerAnimator
+    - UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ControllerInputActionManager
+    - UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider
+    - UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.GazeInputManager
+    Unity.XR.Interaction.Toolkit.dll:
+    - UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Rendering.ColorMaterialPropertyAffordanceReceiver
+    - UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Rendering.MaterialPropertyBlockHelper
+    - UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.State.XRInteractorAffordanceStateProvider
+    - UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Theme.Primitives.ColorAffordanceThemeDatum
+    - UnityEngine.XR.Interaction.Toolkit.Attachment.InteractionAttachController
+    - UnityEngine.XR.Interaction.Toolkit.Feedback.SimpleHapticFeedback
+    - UnityEngine.XR.Interaction.Toolkit.Gaze.XRGazeAssistance
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.Haptics.HapticImpulsePlayer
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulatorSettings
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.XRInputModalityManager
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.XRTransformStabilizer
+    - UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings
+    - UnityEngine.XR.Interaction.Toolkit.Interactors.Casters.CurveInteractionCaster
+    - UnityEngine.XR.Interaction.Toolkit.Interactors.Casters.SphereInteractionCaster
+    - UnityEngine.XR.Interaction.Toolkit.Interactors.NearFarInteractor
+    - UnityEngine.XR.Interaction.Toolkit.Interactors.Visuals.CurveVisualController
+    - UnityEngine.XR.Interaction.Toolkit.Interactors.Visuals.XRInteractorLineVisual
+    - UnityEngine.XR.Interaction.Toolkit.Interactors.XRGazeInteractor
+    - UnityEngine.XR.Interaction.Toolkit.Interactors.XRInteractionGroup
+    - UnityEngine.XR.Interaction.Toolkit.Interactors.XRPokeInteractor
+    - UnityEngine.XR.Interaction.Toolkit.Interactors.XRRayInteractor
+    - UnityEngine.XR.Interaction.Toolkit.Locomotion.Climbing.ClimbProvider
+    - UnityEngine.XR.Interaction.Toolkit.Locomotion.Climbing.ClimbTeleportInteractor
+    - UnityEngine.XR.Interaction.Toolkit.Locomotion.Gravity.GravityProvider
+    - UnityEngine.XR.Interaction.Toolkit.Locomotion.Jump.JumpProvider
+    - UnityEngine.XR.Interaction.Toolkit.Locomotion.LocomotionMediator
+    - UnityEngine.XR.Interaction.Toolkit.Locomotion.Movement.GrabMoveProvider
+    - UnityEngine.XR.Interaction.Toolkit.Locomotion.Movement.TwoHandedGrabMoveProvider
+    - UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation.GazeTeleportationAnchorFilter
+    - UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation.TeleportationProvider
+    - UnityEngine.XR.Interaction.Toolkit.Locomotion.Turning.ContinuousTurnProvider
+    - UnityEngine.XR.Interaction.Toolkit.Locomotion.Turning.SnapTurnProvider
+    - UnityEngine.XR.Interaction.Toolkit.Locomotion.XRBodyTransformer
+    - UnityEngine.XR.Interaction.Toolkit.UI.LazyFollow
+    - UnityEngine.XR.Interaction.Toolkit.UI.TrackedDeviceGraphicRaycaster
+    - UnityEngine.XR.Interaction.Toolkit.UI.XRUIInputModule
+    - UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    - UnityEditor.XR.Management.XRManagerSettingsEditor
+    Unity.XR.Management.dll:
+    - UnityEngine.XR.Management.XRGeneralSettings
+    - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.Simulation.Editor.dll:
+    - UnityEditor.XR.Simulation.SimulationEnvironmentAssetsManager
+    - UnityEditor.XR.Simulation.XREnvironmentViewManager
+    - UnityEditor.XR.Simulation.XRSimulationSettings
+    Unity.XR.Simulation.dll:
+    - UnityEngine.XR.Simulation.SimulatedBoundedPlane
+    - UnityEngine.XR.Simulation.SimulatedBoundingBox
+    - UnityEngine.XR.Simulation.SimulatedEnvironmentProbe
+    - UnityEngine.XR.Simulation.SimulatedMeshClassification
+    - UnityEngine.XR.Simulation.SimulatedTrackedImage
+    - UnityEngine.XR.Simulation.SimulationEnvironment
+    - UnityEngine.XR.Simulation.SimulationLoader
+    - UnityEngine.XR.Simulation.XRSimulationPreferences
+    - UnityEngine.XR.Simulation.XRSimulationRuntimeSettings
+    Unity.XR.XREAL:
+    - Unity.XR.XREAL.XREALCameraInitializer
+    - Unity.XR.XREAL.XREALCaptureBehaviour
+    - Unity.XR.XREAL.XREALRecordBehaviour
+    Unity.XR.XREAL.dll:
+    - Unity.XR.XREAL.XREALBatteryNotification
+    - Unity.XR.XREAL.XREALButton
+    - Unity.XR.XREAL.XREALControllerLayout
+    - Unity.XR.XREAL.XREALControllerSimulator
+    - Unity.XR.XREAL.XREALDialogController
+    - Unity.XR.XREAL.XREALDialogView
+    - Unity.XR.XREAL.XREALHomeMenu
+    - Unity.XR.XREAL.XREALLocalizationTool
+    - Unity.XR.XREAL.XREALNativeErrorNotification
+    - Unity.XR.XREAL.XREALNotificationListener
+    - Unity.XR.XREAL.XREALSessionManager
+    - Unity.XR.XREAL.XREALSettings
+    - Unity.XR.XREAL.XREALSlamStateNotification
+    - Unity.XR.XREAL.XREALTemperatureNotification
+    - Unity.XR.XREAL.XREALTrackingModeChangeListener
+    - Unity.XR.XREAL.XREALTrackingTypeChangeMask
+    - Unity.XR.XREAL.XREALVirtualController
+    - Unity.XR.XREAL.XREALXRLoader
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.RawImage
+    - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
+  serializedClasses:
+    Assembly-CSharp:
+    - Assets.LSL4Unity.Scripts.StreamEvent
+    - ExciteOMeter.DataLogger
+    - ExciteOMeter.DataType
+    - ExciteOMeter.MovementDataManager/MovementRecorder
+    Unity.InputSystem:
+    - UnityEngine.InputSystem.InputAction
+    - UnityEngine.InputSystem.InputActionMap
+    - UnityEngine.InputSystem.InputActionProperty
+    - UnityEngine.InputSystem.InputBinding
+    Unity.RenderPipelines.Core.Runtime:
+    - UnityEngine.Rendering.APVLeakReductionModeParameter
+    - UnityEngine.Rendering.BoolParameter
+    - UnityEngine.Rendering.ClampedFloatParameter
+    - UnityEngine.Rendering.ClampedIntParameter
+    - UnityEngine.Rendering.ColorParameter
+    - UnityEngine.Rendering.FloatParameter
+    - UnityEngine.Rendering.IncludeAdditionalRPAssets
+    - UnityEngine.Rendering.LightmapSamplingSettings
+    - UnityEngine.Rendering.MinFloatParameter
+    - UnityEngine.Rendering.NoInterpTextureParameter
+    - UnityEngine.Rendering.ProbeVolumeBakingResources
+    - UnityEngine.Rendering.ProbeVolumeBlendingTextureMemoryBudget
+    - UnityEngine.Rendering.ProbeVolumeDebugResources
+    - UnityEngine.Rendering.ProbeVolumeGlobalSettings
+    - UnityEngine.Rendering.ProbeVolumeRuntimeResources
+    - UnityEngine.Rendering.ProbeVolumeSHBands
+    - UnityEngine.Rendering.ProbeVolumeSceneData
+    - UnityEngine.Rendering.ProbeVolumeTextureMemoryBudget
+    - UnityEngine.Rendering.RenderGraphGlobalSettings
+    - UnityEngine.Rendering.RenderGraphModule.Util.RenderGraphUtilsResources
+    - UnityEngine.Rendering.RenderPipelineGraphicsSettingsContainer
+    - UnityEngine.Rendering.STP/RuntimeResources
+    - UnityEngine.Rendering.SerializedDictionary`2
+    - UnityEngine.Rendering.ShaderStrippingSetting
+    - UnityEngine.Rendering.TextureCurve
+    - UnityEngine.Rendering.TextureCurveParameter
+    - UnityEngine.Rendering.TextureParameter
+    - UnityEngine.Rendering.UI.DebugUIPrefabBundle
+    - UnityEngine.Rendering.Vector2Parameter
+    - UnityEngine.Rendering.Vector3Parameter
+    - UnityEngine.Rendering.Vector4Parameter
+    - UnityEngine.Rendering.VrsRenderPipelineRuntimeResources
+    Unity.RenderPipelines.GPUDriven.Runtime:
+    - UnityEngine.Rendering.GPUResidentDrawerResources
+    Unity.RenderPipelines.Universal.Runtime:
+    - UnityEngine.Rendering.Universal.DepthOfFieldModeParameter
+    - UnityEngine.Rendering.Universal.DownscaleParameter
+    - UnityEngine.Rendering.Universal.FilmGrainLookupParameter
+    - UnityEngine.Rendering.Universal.HDRACESPresetParameter
+    - UnityEngine.Rendering.Universal.MotionBlurModeParameter
+    - UnityEngine.Rendering.Universal.MotionBlurQualityParameter
+    - UnityEngine.Rendering.Universal.NeutralRangeReductionModeParameter
+    - UnityEngine.Rendering.Universal.PostProcessData/ShaderResources
+    - UnityEngine.Rendering.Universal.PostProcessData/TextureResources
+    - UnityEngine.Rendering.Universal.RenderGraphSettings
+    - UnityEngine.Rendering.Universal.Renderer2DResources
+    - UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusionDynamicResources
+    - UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusionPersistentResources
+    - UnityEngine.Rendering.Universal.ScreenSpaceLensFlareResolutionParameter
+    - UnityEngine.Rendering.Universal.ScriptableRendererData/DebugShaderResources
+    - UnityEngine.Rendering.Universal.ScriptableRendererData/ProbeVolumeResources
+    - UnityEngine.Rendering.Universal.StencilStateData
+    - UnityEngine.Rendering.Universal.TemporalAA/Settings
+    - UnityEngine.Rendering.Universal.TonemappingModeParameter
+    - UnityEngine.Rendering.Universal.URPDefaultVolumeProfileSettings
+    - UnityEngine.Rendering.Universal.URPShaderStrippingSetting
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset/TextureResources
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineDebugShaders
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorAssets
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorMaterials
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorShaders
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineRuntimeShaders
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineRuntimeTextures
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineRuntimeXRResources
+    - UnityEngine.Rendering.Universal.UniversalRendererResources
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_InputField/OnChangeEvent
+    - TMPro.TMP_InputField/SelectionEvent
+    - TMPro.TMP_InputField/SubmitEvent
+    - TMPro.TMP_InputField/TextSelectionEvent
+    - TMPro.TMP_InputField/TouchScreenKeyboardEvent
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
+    Unity.XR.CoreUtils:
+    - Unity.XR.CoreUtils.ColorUnityEvent
+    - Unity.XR.CoreUtils.Datums.AnimationCurveDatumProperty
+    Unity.XR.Interaction.Toolkit:
+    - UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Theme.AffordanceThemeData`1
+    - UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Theme.Primitives.ColorAffordanceTheme
+    - UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Theme.Primitives.ColorAffordanceThemeDatumProperty
+    - UnityEngine.XR.Interaction.Toolkit.Feedback.HapticImpulseData
+    - UnityEngine.XR.Interaction.Toolkit.Gaze.XRGazeAssistance/InteractorData
+    - UnityEngine.XR.Interaction.Toolkit.HoverEnterEvent
+    - UnityEngine.XR.Interaction.Toolkit.HoverExitEvent
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.Haptics.XRInputHapticImpulseProvider
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputButtonReader
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1
+    - UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask
+    - UnityEngine.XR.Interaction.Toolkit.Interactors.IXRRayProvider
+    - UnityEngine.XR.Interaction.Toolkit.Interactors.Visuals.LineProperties
+    - UnityEngine.XR.Interaction.Toolkit.Interactors.XRInteractionGroup/GroupMemberAndOverridesPair
+    - UnityEngine.XR.Interaction.Toolkit.Locomotion.Climbing.ClimbSettings
+    - UnityEngine.XR.Interaction.Toolkit.Locomotion.Climbing.ClimbSettingsDatumProperty
+    - UnityEngine.XR.Interaction.Toolkit.Locomotion.Gravity.GravityOverride
+    - UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation.TeleportVolumeDestinationSettings
+    - UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation.TeleportVolumeDestinationSettingsDatumProperty
+    - UnityEngine.XR.Interaction.Toolkit.SelectEnterEvent
+    - UnityEngine.XR.Interaction.Toolkit.SelectExitEvent
+    - UnityEngine.XR.Interaction.Toolkit.UI.UIHoverEnterEvent
+    - UnityEngine.XR.Interaction.Toolkit.UI.UIHoverExitEvent
+    UnityEngine.CoreModule:
+    - UnityEngine.Bounds
+    - UnityEngine.Color
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.Events.UnityEvent
+    - UnityEngine.Events.UnityEvent`1
+    - UnityEngine.RectOffset
+    - UnityEngine.Rendering.RenderPipelineGraphicsSettingsCollection
+    - UnityEngine.Vector2
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    - UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
+    - UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
+    - UnityEngine.TextCore.LowLevel.GlyphValueRecord
+    UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.Slider/SliderEvent
+    - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: ARStressExperiment
+    methodName: StartExperiment
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: ARStressExperiment
+    methodName: OnFakeHRBaseChanged
+  - assembly: Assembly-CSharp
+    fullTypeName: ARStressExperiment
+    methodName: OnBaselineTaskDurationChanged
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: ARStressExperiment
+    methodName: SelectGroupB
+  - assembly: Assembly-CSharp
+    fullTypeName: ARStressExperiment
+    methodName: SelectGroupA
+  - assembly: Assembly-CSharp
+    fullTypeName: ARStressExperiment
+    methodName: UpdateCurrentVideoPathUI
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: ARStressExperiment
+    methodName: PickVideo
+  - assembly: Assembly-CSharp
+    fullTypeName: ARStressExperiment
+    methodName: OnBaselineDurationChanged
+  - assembly: Assembly-CSharp
+    fullTypeName: ARStressExperiment
+    methodName: OnFakeHRVarianceChanged
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: ARStressExperiment
+    methodName: OnStressTaskDurationChanged
+  - assembly: Assembly-CSharp
+    fullTypeName: ARStressExperiment
+    methodName: ResetVideoPath
+  - assembly: Assembly-CSharp
+    fullTypeName: ARStressExperiment
+    methodName: OnStressDurationChanged
+  - assembly: Assembly-CSharp
+    fullTypeName: ARStressExperiment
+    methodName: OnRestDurationChanged
+  - assembly: Assembly-CSharp
+    fullTypeName: ARStressExperiment
+    methodName: SelectGroupC
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerButton
+    methodName: OnAction
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: OnScrollbarClicked
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: OnScrollbarClicked
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: ResetDebugManager
+  sceneClasses:
+    Assets/Scenes/Bachelor Experiment.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 31412}
+    - Class: 114
+      Script: {instanceID: 31518}
+    - Class: 114
+      Script: {instanceID: 31610}
+    - Class: 114
+      Script: {instanceID: 31624}
+    - Class: 114
+      Script: {instanceID: 31798}
+    - Class: 114
+      Script: {instanceID: 32024}
+    - Class: 114
+      Script: {instanceID: 32060}
+    - Class: 114
+      Script: {instanceID: 32062}
+    - Class: 114
+      Script: {instanceID: 32284}
+    - Class: 114
+      Script: {instanceID: 32402}
+    - Class: 114
+      Script: {instanceID: 32464}
+    - Class: 114
+      Script: {instanceID: 32490}
+    - Class: 114
+      Script: {instanceID: 32504}
+    - Class: 114
+      Script: {instanceID: 32582}
+    - Class: 114
+      Script: {instanceID: 32586}
+    - Class: 114
+      Script: {instanceID: 32620}
+    - Class: 114
+      Script: {instanceID: 32724}
+    - Class: 114
+      Script: {instanceID: 32732}
+    - Class: 114
+      Script: {instanceID: 32770}
+    - Class: 114
+      Script: {instanceID: 32780}
+    - Class: 114
+      Script: {instanceID: 32786}
+    - Class: 114
+      Script: {instanceID: 32788}
+    - Class: 114
+      Script: {instanceID: 32896}
+    - Class: 114
+      Script: {instanceID: 32922}
+    - Class: 114
+      Script: {instanceID: 33162}
+    - Class: 114
+      Script: {instanceID: 33332}
+    - Class: 114
+      Script: {instanceID: 33350}
+    - Class: 114
+      Script: {instanceID: 33400}
+    - Class: 114
+      Script: {instanceID: 33428}
+    - Class: 114
+      Script: {instanceID: 33442}
+    - Class: 114
+      Script: {instanceID: 33480}
+    - Class: 114
+      Script: {instanceID: 33602}
+    - Class: 114
+      Script: {instanceID: 33790}
+    - Class: 114
+      Script: {instanceID: 33820}
+    - Class: 114
+      Script: {instanceID: 33884}
+    - Class: 114
+      Script: {instanceID: 33888}
+    - Class: 114
+      Script: {instanceID: 34016}
+    - Class: 114
+      Script: {instanceID: 34076}
+    - Class: 114
+      Script: {instanceID: 34310}
+    - Class: 114
+      Script: {instanceID: 34400}
+    - Class: 114
+      Script: {instanceID: 34456}
+    - Class: 114
+      Script: {instanceID: 34460}
+    - Class: 114
+      Script: {instanceID: 34518}
+    - Class: 114
+      Script: {instanceID: 34552}
+    - Class: 114
+      Script: {instanceID: 34582}
+    - Class: 114
+      Script: {instanceID: 34642}
+    - Class: 114
+      Script: {instanceID: 34786}
+    - Class: 114
+      Script: {instanceID: 35488}
+    - Class: 114
+      Script: {instanceID: 35632}
+    - Class: 114
+      Script: {instanceID: 35682}
+    - Class: 114
+      Script: {instanceID: 35698}
+    - Class: 114
+      Script: {instanceID: 35804}
+    - Class: 114
+      Script: {instanceID: 35810}
+    - Class: 114
+      Script: {instanceID: 36044}
+    - Class: 114
+      Script: {instanceID: 36278}
+    - Class: 114
+      Script: {instanceID: 36452}
+    - Class: 114
+      Script: {instanceID: 36560}
+    - Class: 114
+      Script: {instanceID: 36580}
+    - Class: 114
+      Script: {instanceID: 36592}
+    - Class: 114
+      Script: {instanceID: 36636}
+    - Class: 114
+      Script: {instanceID: 36674}
+    - Class: 114
+      Script: {instanceID: 36842}
+    - Class: 114
+      Script: {instanceID: 36902}
+    - Class: 114
+      Script: {instanceID: 36984}
+    - Class: 114
+      Script: {instanceID: 37044}
+    - Class: 114
+      Script: {instanceID: 37106}
+    - Class: 114
+      Script: {instanceID: 37130}
+    - Class: 114
+      Script: {instanceID: 37178}
+    - Class: 114
+      Script: {instanceID: 37222}
+    - Class: 114
+      Script: {instanceID: 37348}
+    - Class: 114
+      Script: {instanceID: 37358}
+    - Class: 114
+      Script: {instanceID: 37532}
+    - Class: 114
+      Script: {instanceID: 37856}
+    - Class: 114
+      Script: {instanceID: 37872}
+    - Class: 114
+      Script: {instanceID: 37950}
+    - Class: 114
+      Script: {instanceID: 38156}
+    - Class: 114
+      Script: {instanceID: 38252}
+    - Class: 114
+      Script: {instanceID: 38254}
+    - Class: 114
+      Script: {instanceID: 38270}
+    - Class: 114
+      Script: {instanceID: 38434}
+    - Class: 114
+      Script: {instanceID: 38504}
+    - Class: 114
+      Script: {instanceID: 38678}
+    - Class: 114
+      Script: {instanceID: 38936}
+    - Class: 114
+      Script: {instanceID: 38996}
+    - Class: 114
+      Script: {instanceID: 39002}
+    - Class: 114
+      Script: {instanceID: 39206}
+    - Class: 114
+      Script: {instanceID: 39240}
+    - Class: 114
+      Script: {instanceID: 39302}
+    - Class: 114
+      Script: {instanceID: 39304}
+    - Class: 114
+      Script: {instanceID: 39348}
+    - Class: 114
+      Script: {instanceID: 39394}
+    - Class: 114
+      Script: {instanceID: 39634}
+    - Class: 114
+      Script: {instanceID: 39898}
+    - Class: 114
+      Script: {instanceID: 39912}
+    - Class: 114
+      Script: {instanceID: 39934}
+    - Class: 114
+      Script: {instanceID: 40158}
+    - Class: 114
+      Script: {instanceID: 40224}
+    - Class: 114
+      Script: {instanceID: 40310}
+    - Class: 114
+      Script: {instanceID: 40358}
+    - Class: 114
+      Script: {instanceID: 40406}
+    - Class: 114
+      Script: {instanceID: 40550}
+    - Class: 114
+      Script: {instanceID: 40578}
+    - Class: 114
+      Script: {instanceID: 40662}
+    - Class: 114
+      Script: {instanceID: 40742}
+    - Class: 114
+      Script: {instanceID: 40786}
+    - Class: 114
+      Script: {instanceID: 40892}
+    - Class: 114
+      Script: {instanceID: 40932}
+    - Class: 114
+      Script: {instanceID: 40946}
+    - Class: 114
+      Script: {instanceID: 40974}
+    - Class: 114
+      Script: {instanceID: 41162}
+    - Class: 114
+      Script: {instanceID: 41178}
+    - Class: 114
+      Script: {instanceID: 41352}
+    - Class: 114
+      Script: {instanceID: 41360}
+    - Class: 114
+      Script: {instanceID: 41414}
+    - Class: 114
+      Script: {instanceID: 41558}
+    - Class: 114
+      Script: {instanceID: 41678}
+    - Class: 114
+      Script: {instanceID: 41760}
+    - Class: 114
+      Script: {instanceID: 41864}
+    - Class: 114
+      Script: {instanceID: 41902}
+    - Class: 114
+      Script: {instanceID: 41988}
+    - Class: 114
+      Script: {instanceID: 42328}
+    - Class: 114
+      Script: {instanceID: 42344}
+    - Class: 114
+      Script: {instanceID: 42412}
+    - Class: 114
+      Script: {instanceID: 42418}
+    - Class: 114
+      Script: {instanceID: 42428}
+    - Class: 114
+      Script: {instanceID: 42554}
+    - Class: 114
+      Script: {instanceID: 42626}
+    - Class: 114
+      Script: {instanceID: 42690}
+    - Class: 114
+      Script: {instanceID: 42794}
+    - Class: 114
+      Script: {instanceID: 42814}
+    - Class: 114
+      Script: {instanceID: 42884}
+    - Class: 114
+      Script: {instanceID: 42928}
+    - Class: 114
+      Script: {instanceID: 42958}
+    - Class: 114
+      Script: {instanceID: 43056}
+    - Class: 114
+      Script: {instanceID: 43242}
+    - Class: 114
+      Script: {instanceID: 43330}
+    - Class: 114
+      Script: {instanceID: 43432}
+    - Class: 114
+      Script: {instanceID: 43436}
+    - Class: 114
+      Script: {instanceID: 43456}
+    - Class: 114
+      Script: {instanceID: 43562}
+    - Class: 114
+      Script: {instanceID: 43600}
+    - Class: 114
+      Script: {instanceID: 43782}
+    - Class: 114
+      Script: {instanceID: 43892}
+    - Class: 114
+      Script: {instanceID: 44236}
+    - Class: 114
+      Script: {instanceID: 44334}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 210
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: ea78afb1b30663b7c04c956e9f2acdec
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRenderPipelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f973541d3cdd0e1911e42a3d49a4044e
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Interactors
+    className: NearFarInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: 95c8a8c68e664d4868755f06e7c55997
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: a0e2a9427ef5c52dd936d31924a5d7dd
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: LogMessageUI
+  - hash:
+      serializedVersion: 2
+      Hash: 828756c77f6d71424c784874486d5df9
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AR
+    className: ARRotationInteractable
+  - hash:
+      serializedVersion: 2
+      Hash: f2e4978799dadb1a1d275128372ff9f0
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARBoundingBoxManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8c03d6ee69f5dc5ed9b56c1be75f5b62
+    assemblyName: Unity.XR.CoreUtils
+    namespaceName: Unity.XR.CoreUtils
+    className: OnDestroyNotifier
+  - hash:
+      serializedVersion: 2
+      Hash: 8127401a7b6ac3c3123daa1a50884292
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: OfflineAnalysisUI
+  - hash:
+      serializedVersion: 2
+      Hash: 7ba62c878b7d4cce31c24000e6c5b645
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Transformers
+    className: ARTransformer
+  - hash:
+      serializedVersion: 2
+      Hash: b2d2a01a2a85d9ed12e80cb33a9a6044
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 1972e57a89e40cd0011bf619390b7491
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation
+    className: TeleportationProvider
+  - hash:
+      serializedVersion: 2
+      Hash: c34180503ca826ea29d8e613d594cd50
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: TileSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 32c17d53ab55e1f1c0a670f332688cfa
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Primitives
+    className: ColorAffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: cf62aad97f6c2dd5d482e2509c6c9528
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 36a23e83c0bf603149741cae608b405d
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALHomeMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 1c1b760325f6dcc6b7de3fdeb5842159
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: ScrollSnapScrollbarHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 3189c18db4f1a75f3ff33d77ded55e46
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UILineConnector
+  - hash:
+      serializedVersion: 2
+      Hash: 61319095e40c0cbfeeb89f99a1cdd4fb
+    assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: CinemachineUniversalPixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: ed8e62f07ec878233f5493a335003493
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: VirtualMouseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 4251b198d46c4d7980a1eabf333fc73d
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: InputFieldEnterSubmit
+  - hash:
+      serializedVersion: 2
+      Hash: b72d9c057c0f9460abf04218f4cc4f0e
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerMessageBox
+  - hash:
+      serializedVersion: 2
+      Hash: 6da11299d7848de0348cb9afc74a948d
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.StarterAssets
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+    className: ObjectSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 07b28a9e25d831c17a442012a4dbb96e
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
+    className: CanvasOptimizer
+  - hash:
+      serializedVersion: 2
+      Hash: 70dd7046726ab7a9a573806fa5861ec1
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: ScrollRectTweener
+  - hash:
+      serializedVersion: 2
+      Hash: 64bb20222316fd979b015b12eaf896bb
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: BestFitOutline
+  - hash:
+      serializedVersion: 2
+      Hash: 88fb61bb508a86605b1a692a09279159
+    assemblyName: NativeFilePicker.Runtime
+    namespaceName: NativeFilePickerNamespace
+    className: FPResultCallbackiOS
+  - hash:
+      serializedVersion: 2
+      Hash: e061bdd0159a784b8acc0552dd0f40bb
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: e7e95903ca66d58e1a7cbd71f824e16d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: b600f260c8488b6664a096bf204ea07c
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARMeshManager
+  - hash:
+      serializedVersion: 2
+      Hash: 0370b9f95798139b666659c7e1be6147
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: BaseInputOverride
+  - hash:
+      serializedVersion: 2
+      Hash: 0da0a6843fb81c24f9ef23adccebb422
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.ARStarterAssets
+    className: ARInteractorSpawnTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 89e7bef84def1b2cdb9e018610c96543
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: XRController
+  - hash:
+      serializedVersion: 2
+      Hash: 40bf6f5b7518ca26968fd36a3316f707
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARCameraManager
+  - hash:
+      serializedVersion: 2
+      Hash: 55848feea7779aa3edbfed6aaa9a4dd9
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Turning
+    className: ContinuousTurnProvider
+  - hash:
+      serializedVersion: 2
+      Hash: febcfbf0a0d85e37808a3740e3c2c6fa
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: f0c7e716bba74532843e486990257b88
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion
+    className: LocomotionMediator
+  - hash:
+      serializedVersion: 2
+      Hash: 4392bfff79efe0630144f16ea4d656ab
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerObjectList
+  - hash:
+      serializedVersion: 2
+      Hash: daeac1347f8039f61cd4017ff33bd3c6
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: InputSystemUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 154f50f3124751ef7ce844f3de22ee33
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARFaceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 07e7b862aaa19f7fa318676c675f98e4
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: CustomMarkerScriptUI
+  - hash:
+      serializedVersion: 2
+      Hash: 0ac5400fd965590a19ec1afff6ff8837
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARParticipantManager
+  - hash:
+      serializedVersion: 2
+      Hash: f99ce8526ec148f29051c0a9dced1a03
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRenderPipelineGlobalSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 682dfc653b22feea53b38adb3bc66414
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: bfa9d6dfbc3c74a843a3b197bdcc6639
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 3ffc25ea70d68116979a44b44ca2ee8a
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter.Vizualisation
+    className: LineGraphData
+  - hash:
+      serializedVersion: 2
+      Hash: 2e66186bbf065a61e6d432529df2e8dc
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: DeviceBasedContinuousMoveProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 9dd54ce33440072d6692a67e0c384ad1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 5dfce70ce20f90041642d46544e45026
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs.Readers
+    className: XRInputDeviceBoolValueReader
+  - hash:
+      serializedVersion: 2
+      Hash: 1d513ff35f4714ae4e45f4d96a860f11
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Interactors
+    className: XRPokeInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: 58c07d4e6331af1546687658f5e3a5c3
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 20a120e55ad3ab65556328d5fd8309dd
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: d1e4f0a25eb9f6ef465a105164f23af8
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.ARStarterAssets
+    className: ARSampleMenuManager
+  - hash:
+      serializedVersion: 2
+      Hash: 2deddcdd5f664164bb803747210cbba2
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerRow
+  - hash:
+      serializedVersion: 2
+      Hash: 006c9c35bf108afced6fe1a0fc46b35e
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Attachment
+    className: InteractionAttachController
+  - hash:
+      serializedVersion: 2
+      Hash: 2bbd05175d4cdd21e24f9716cdd24f83
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.XR
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: e48b62f34089db7c8181bc217c05ccad
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation
+    className: XRDeviceSimulator
+  - hash:
+      serializedVersion: 2
+      Hash: 1362033cd491d66ad3cc206af29cc0de
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: Volume
+  - hash:
+      serializedVersion: 2
+      Hash: 483867572336e6a2a09426c70a4acfe3
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UI_ScrollRectOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: 8264d798b0c0cddff04db2fe0316d6b2
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UI_InfiniteScroll
+  - hash:
+      serializedVersion: 2
+      Hash: 8293dc87e778f093e9a176a8b60f3e84
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: XRControllerRecorder
+  - hash:
+      serializedVersion: 2
+      Hash: addad52c22ce96635de75d120f75d898
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Transformers
+    className: XRLegacyGrabTransformer
+  - hash:
+      serializedVersion: 2
+      Hash: da281dc879c7932e0c9669da88ae40c0
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerGroup
+  - hash:
+      serializedVersion: 2
+      Hash: f82afb66b35f7cf16ff7f39c0dbc761c
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALNotificationListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9507f221948bbd40853cc0ec75374d07
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: LensFlareComponentSRP
+  - hash:
+      serializedVersion: 2
+      Hash: 130155059209c6ee78ba1eb331426054
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALDialogView
+  - hash:
+      serializedVersion: 2
+      Hash: f40cefb26fa0289eb0e0677b7bfcbd7f
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARDebugMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 9a6b34ef4df4e8822f786be9c5367dd5
+    assemblyName: Assembly-CSharp
+    namespaceName: Unity.AR.Companion.Mobile
+    className: CutoutMaskUI
+  - hash:
+      serializedVersion: 2
+      Hash: 85736b709b825214feafe6f0b89e1681
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIPolygon
+  - hash:
+      serializedVersion: 2
+      Hash: 4ee1e5f285c826248e282a4df1635b19
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: 05afd034bf7a074278a40ad9e97d8db4
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: e6ee7dccba41ae87d10e3d922c6cb71c
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 53e329840e6d03aebec76623c3b054db
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 2cec710e4ef8cb4582b8d556bd4c51a4
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.State
+    className: XRInteractorAffordanceStateProvider
+  - hash:
+      serializedVersion: 2
+      Hash: b71680be5fcafa98e1f2ee4abd69ab57
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: CharacterControllerDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 83f9d9f66b2f04b7819a37704a7a403d
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALBatteryNotification
+  - hash:
+      serializedVersion: 2
+      Hash: a9842a586e10cf2363a8e0ff71f4d096
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Interactors
+    className: XRSocketInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: f6db977bc2fc029954ca618c625656b2
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALSlamStateNotification
+  - hash:
+      serializedVersion: 2
+      Hash: ef19274111491b6b8bcc6fd227f656f5
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIndirectFloatField
+  - hash:
+      serializedVersion: 2
+      Hash: c033f9900e9834b2cfc0e40157e0c1e1
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: BoundTooltipItem
+  - hash:
+      serializedVersion: 2
+      Hash: d6a554f470de73cbba31eadf6a51e010
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: ColorSlider
+  - hash:
+      serializedVersion: 2
+      Hash: ad1a96300e856d5c0ed71e6a72f6a89e
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
+    className: TrackedDeviceGraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: e597a0bb42818c3e8bdf342397355665
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Rendering
+    className: Vector4MaterialPropertyAffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: dd9dda1dfd39e605c49e72003342ef5d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 0126f347d98d02424c7e030465a71ead
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.HID.Editor
+    className: HIDDescriptorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 18df6cd81c791b2b3d9d6069cf1bfa73
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Theme.Audio
+    className: AudioAffordanceThemeDatum
+  - hash:
+      serializedVersion: 2
+      Hash: 66496b917404bcb20f6bf50861c1adc6
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: ProbeVolumeBakingSet
+  - hash:
+      serializedVersion: 2
+      Hash: dbe4f05d59170430398f6453d7253fe5
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerWidget
+  - hash:
+      serializedVersion: 2
+      Hash: 6d971045f8e67def7430d0b6f3cb0700
+    assemblyName: Unity.RenderPipelines.GPUDriven.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: DisallowSmallMeshCulling
+  - hash:
+      serializedVersion: 2
+      Hash: 33f160a5c07e580c29aba2bd1e4db811
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: de8e34fffe62b77ca47bae273d0414ba
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: ObsoleteProbeVolumeAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 9d4330392165cdca782d1966698d5772
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALBackGroundRender
+  - hash:
+      serializedVersion: 2
+      Hash: d6501b0e76cedd4d8a389c571b58e696
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EoM_DataReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 2608b9062d111e65a912d25d46e66328
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Primitives
+    className: QuaternionEulerAffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: c72836d4de52735095cb1ff75c0fd054
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.LSL4Unity.Scripts
+    className: LSLTransformOutlet
+  - hash:
+      serializedVersion: 2
+      Hash: 653acbf5d6118807cd8624a515a49812
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Interactables
+    className: XRInteractableSnapVolume
+  - hash:
+      serializedVersion: 2
+      Hash: c4cdb902228df56d5b2b639d6a6bbd3c
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 2a4d3814def9735def3e8c022a899069
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: SDNN
+  - hash:
+      serializedVersion: 2
+      Hash: b752a33235d290199dacaa57eb8cc5f9
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Gaze
+    className: XRGazeAssistance
+  - hash:
+      serializedVersion: 2
+      Hash: e987953190eb4c12cf19df790566dc2c
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 1ca92287eef1fb71f2207af20f860209
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.UI.BodyUI
+    className: HandMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 29bda2117a3bcfcbc9c95173e0b66325
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: AREnvironmentProbeManager
+  - hash:
+      serializedVersion: 2
+      Hash: 780cb32cea5043aef1ce78787687c525
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs.Haptics
+    className: HapticImpulsePlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 4c3262f16f1daf941a24fa01c54b864c
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: ExciteOMeterCalculation
+  - hash:
+      serializedVersion: 2
+      Hash: 23a98f6f1a5d229a12380c833c2d9737
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: MarkerInfoScript
+  - hash:
+      serializedVersion: 2
+      Hash: 3e4d800cee21c1250c5253c6acfbe524
+    assemblyName: Unity.XR.ARCore
+    namespaceName: UnityEngine.XR.ARCore
+    className: ARCoreLoaderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 69a598174a447b321a2940c0cccef248
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: ColorPickerTester
+  - hash:
+      serializedVersion: 2
+      Hash: 3f04cc0700923c2d815479050925a9c6
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: XRInteractionManager
+  - hash:
+      serializedVersion: 2
+      Hash: 963e9236848bf8f326a3b6c79f6c7a63
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARRaycast
+  - hash:
+      serializedVersion: 2
+      Hash: 0bc7ef1b7516f21320ec49bfd31eef2e
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: TrackedDeviceRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: b47e164d544516b54093ca3d90cbb554
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: AutoCompleteComboBox
+  - hash:
+      serializedVersion: 2
+      Hash: 447590fe27d863b96f8486355d47e423
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SceneTemplate_RotateCube
+  - hash:
+      serializedVersion: 2
+      Hash: d538795726e6ae42ad16d6b8c43b4516
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: BoxSlider
+  - hash:
+      serializedVersion: 2
+      Hash: a47182e2cc4ad3e76939204f5ef61278
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 76b5593a129aa1ab94b86b03f729de72
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AR
+    className: ARScaleInteractable
+  - hash:
+      serializedVersion: 2
+      Hash: 0bd78bb5b04087526cdc0c7b863b2c4a
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: SVBoxSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 93bc1d3943bcd66d7300332989c87bd3
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: XRScreenSpaceController
+  - hash:
+      serializedVersion: 2
+      Hash: 45da5a1b1071600a8c95300a5554f064
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs
+    className: InputActionManager
+  - hash:
+      serializedVersion: 2
+      Hash: 33656f83bb0079184b2206a69690ec46
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: dfd627efe78b3cc1291aca8787c18ca6
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Primitives
+    className: Vector3AffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 9104447b683bf70406fa01f12ecb564a
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 0de47febf7ff6c9540d275540a2ceaf9
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPointCloudManager
+  - hash:
+      serializedVersion: 2
+      Hash: a92561298b80715aa69e8fa770123cb5
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI.Editor
+    className: InputSystemUIInputModuleEditor
+  - hash:
+      serializedVersion: 2
+      Hash: ea5e0cb2f62c5bafc3dfb7bcdc9595e1
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: DebugUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: 2a6250617b15290dc36d5e26271dbd95
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: DeviceBasedSnapTurnProvider
+  - hash:
+      serializedVersion: 2
+      Hash: e4b366c42200e1295e28495f02259ba4
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AR.Inputs
+    className: ScreenSpacePinchScaleInput
+  - hash:
+      serializedVersion: 2
+      Hash: 41baf6801d0b49d130bf1f9a901f7ff3
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: SettingsManager
+  - hash:
+      serializedVersion: 2
+      Hash: f1a1fac39f7caba42c072d3c1c7d3a2e
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Filtering
+    className: XRPokeFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 618c25b927ee3d8c19037715838137c8
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Theme.Primitives
+    className: Vector2AffordanceThemeDatum
+  - hash:
+      serializedVersion: 2
+      Hash: c9c1e3c149cf3bd12381167ed1a48f1d
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: MonoSpacing
+  - hash:
+      serializedVersion: 2
+      Hash: 6b2b20d5352b9f1294595326f54bd3c2
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerObjectPopupField
+  - hash:
+      serializedVersion: 2
+      Hash: 191c3402cd43ee08f0a96795440c294e
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: AdvancedDropdownWindow
+  - hash:
+      serializedVersion: 2
+      Hash: fce99de7ab700e0c4c466ebd583aa306
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorLookup
+  - hash:
+      serializedVersion: 2
+      Hash: 12f3e38fcb0dd9336a48913693af3ff7
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Theme.Primitives
+    className: Vector4AffordanceThemeDatum
+  - hash:
+      serializedVersion: 2
+      Hash: 12be1eff964c92cb0f5468312b359d9c
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter.Vizualisation
+    className: TimeLineEntry
+  - hash:
+      serializedVersion: 2
+      Hash: 915204dac8acad99f076d6e72ada0a0f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 19223ac1c9ffc0a165faa0b825bbf3e7
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation
+    className: GazeTeleportationAnchorFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 1585a45c98d7daea90266142534d3a60
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: QuickMarkerEoM
+  - hash:
+      serializedVersion: 2
+      Hash: 95426d463074947dcbffc797c44e779c
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI.Editor
+    className: StandaloneInputModuleModuleEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 9f27b94c3c17b0da0d39632b61a4b711
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: 5e4931e47809cc64ebbe92f31a566d3f
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.ARStarterAssets
+    className: ARContactSpawnTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 48637cb0b989c5d386e39c1c5108bcdc
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Rendering
+    className: Vector3MaterialPropertyAffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 5b276b36ea43a363d9a63ceb1210b07a
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIPrimitiveBase
+  - hash:
+      serializedVersion: 2
+      Hash: 42aaa49a948f790a50b753161be612fc
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.StarterAssets
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+    className: ControllerAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 63480dcb0c227d0f9bc53df3473c55c2
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.StarterAssets
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+    className: RotationAxisLockGrabTransformer
+  - hash:
+      serializedVersion: 2
+      Hash: a6e4b2399233366f2eca242d7415f725
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.StarterAssets
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+    className: XRPokeFollowAffordance
+  - hash:
+      serializedVersion: 2
+      Hash: 775c2b2447b0291c4e6275adbee2576e
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: MultiTouchScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: c0a2b4d13675f08bfb211e044c334e68
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIntField
+  - hash:
+      serializedVersion: 2
+      Hash: affc9a52f65dfa3cb22fe0ffc476421f
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARCommandBufferSupportRendererFeature
+  - hash:
+      serializedVersion: 2
+      Hash: b0292695a842b9664e7db7384629a993
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: HorizontalScrollSnap
+  - hash:
+      serializedVersion: 2
+      Hash: 7ecacbbd681c30986b7bf4542147e285
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs.Readers
+    className: XRInputDeviceVector2ValueReader
+  - hash:
+      serializedVersion: 2
+      Hash: e63fe08659e7e4647a51098c666f8845
+    assemblyName: Unity.InputSystem
+    namespaceName: 
+    className: DownloadableSample
+  - hash:
+      serializedVersion: 2
+      Hash: 4bf94f9a2850bbbf16f410c2b57d8239
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: ColorPickerControl
+  - hash:
+      serializedVersion: 2
+      Hash: afb7b65d28d5a7423e69a1b076be0064
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 4728e3d21cc2a12e391e71ec9b7eed0b
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e8f7f200b486523c68f2a4cebae719f5
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Transformation
+    className: UniformTransformScaleAffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 6178d023a137c80e38c578310bdb55c4
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Utilities
+    className: DisposableManagerSingleton
+  - hash:
+      serializedVersion: 2
+      Hash: 3208b3b7cee4c8404e2d7be1c0d0647b
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: ScrollRectEx
+  - hash:
+      serializedVersion: 2
+      Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 3bddb15053118dcd72c355335d7af7f3
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: AROcclusionManager
+  - hash:
+      serializedVersion: 2
+      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 43e8e3b4b949a081c327faabace81aee
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RandomMarker
+  - hash:
+      serializedVersion: 2
+      Hash: 0f6b6107168e347e854c0107aa8cb9fb
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerEnumHistory
+  - hash:
+      serializedVersion: 2
+      Hash: 9aa3fc8f6f162f57204bac7b912b0328
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARTrackedImageManager
+  - hash:
+      serializedVersion: 2
+      Hash: 51b80d3734ea86b38e3101db98029e15
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 51a038673ffbf2f0d705b2190ce8430d
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: ToolTip
+  - hash:
+      serializedVersion: 2
+      Hash: 057bbfe3eb4dfa18e2f314a62d828906
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: VerticalScrollSnap
+  - hash:
+      serializedVersion: 2
+      Hash: d54821962f441af1abdb11d7bb440b08
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: ScrollSnap
+  - hash:
+      serializedVersion: 2
+      Hash: 7d026ae582dc02c5edc3fc23b8c03ff7
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector3
+  - hash:
+      serializedVersion: 2
+      Hash: 3bb36789f19147690fe5161a89411e00
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Jump
+    className: JumpProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 6acdae4fc4f0a804bf4cec1495695dce
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.ARStarterAssets
+    className: ARFeatheredPlaneMeshVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: cb540d7b44cc36c9b84c72e2869fef76
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: HoverTooltip
+  - hash:
+      serializedVersion: 2
+      Hash: 0a1e375820c17fe20a89d3edbe4ef9b2
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.LSL4Unity.Demo
+    className: StreamInfo
+  - hash:
+      serializedVersion: 2
+      Hash: b72839eb6e4350778dc879d98832aa2b
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerHBox
+  - hash:
+      serializedVersion: 2
+      Hash: 3485336312ff86fccb8c0954401d6a7c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DesktopCameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 3daf40561a64b9969f9d025fa93ca631
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CubeRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 67ba98f8a8977f3e60e5f0e049923033
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerColor
+  - hash:
+      serializedVersion: 2
+      Hash: 2cf85eee98b63df026ac421c84dee923
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARAnchorManager
+  - hash:
+      serializedVersion: 2
+      Hash: bc8c525e39b6fddab1a15c5b47455669
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ScreenSpaceLensFlare
+  - hash:
+      serializedVersion: 2
+      Hash: 7bb32d6e4c7614a97d9723ce7e26588c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: BasicPlayableBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d0cdd713f9bf4e6a625d9e7804deca42
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 3fd3a74e10cdfd45658891dfffc27a90
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: PostProcessData
+  - hash:
+      serializedVersion: 2
+      Hash: 01727a040aa965d7fae41c3c1e1d9ee5
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: PaniniProjection
+  - hash:
+      serializedVersion: 2
+      Hash: 172ade1364d05357755d7c4960b9b9f5
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.UI.BodyUI
+    className: FollowPresetDatum
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa53a78f29ddf9b15dee823fcbd2c6f
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ToolButton
+  - hash:
+      serializedVersion: 2
+      Hash: 0b866ba878903b13895eab6a32ae2567
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Rendering
+    className: MaterialPropertyBlockHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 95ae8cea6d5ed4a788fdeff37026fb8d
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: ColorImage
+  - hash:
+      serializedVersion: 2
+      Hash: f4c91547322f974b69e727d6ef12d780
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UILineRendererList
+  - hash:
+      serializedVersion: 2
+      Hash: 039a4fc9108547b7d0d72cd4f5d6e19f
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: CurvedLayout
+  - hash:
+      serializedVersion: 2
+      Hash: a9a9985bc600ab81586355efc506ee17
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: WhiteBalance
+  - hash:
+      serializedVersion: 2
+      Hash: 98b72bb671879394555292d8785611eb
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: ReorderableListElement
+  - hash:
+      serializedVersion: 2
+      Hash: 76364f2081d403eeb513c396ed3ba4b6
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIParticleSystem
+  - hash:
+      serializedVersion: 2
+      Hash: ee340df8c5dba46d83400c44d97ed557
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: Segment
+  - hash:
+      serializedVersion: 2
+      Hash: 9ad6408221926c0734ec0cccdd64e1e3
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.LSL4Unity.Scripts
+    className: Resolver
+  - hash:
+      serializedVersion: 2
+      Hash: 3c9169fda20c63cfd6006bfc181838d3
+    assemblyName: Unity.XR.ARSubsystems
+    namespaceName: UnityEngine.XR.ARSubsystems
+    className: XRReferenceImageLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 77a711948ffe7bca7e8502d461f3f594
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: MenuManager
+  - hash:
+      serializedVersion: 2
+      Hash: 5ef75a6d8ea21e24038bea65d5416343
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.State
+    className: XRInteractableAffordanceStateProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 5c491a3edd6e120231841781de5ba3ac
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter.Vizualisation
+    className: InstantMarkersData
+  - hash:
+      serializedVersion: 2
+      Hash: 68acc910c93e8eaaf59b418120ed7c60
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Utilities
+    className: XRDebugLineVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: c7461ddb2926b22edcbffe17bf941824
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: DecalProjector
+  - hash:
+      serializedVersion: 2
+      Hash: 3ceee6a859cdd574e016b7ce78ee3f02
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: ReorderableListContent
+  - hash:
+      serializedVersion: 2
+      Hash: a3901985eb076c1c9b7562fca82ca3e0
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 2e57122b842951b151c294f07f982e59
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: BoundTooltipTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: f295412bc00b58b9095a71e9764cc886
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6dc3d79712ca4934f6d50c80f010b1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: b58bff8f1d853885ababdc1267e9589d
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Filtering
+    className: PokeThresholdDatum
+  - hash:
+      serializedVersion: 2
+      Hash: 01ac066b884ee85a02dda11e34f09438
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: QuadPointerHandler
+  - hash:
+      serializedVersion: 2
+      Hash: cf32d98954e63b8e30e9334b152e9b8e
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 08e2446b65d2da7600c6bbdd36de0e56
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputSystemObject
+  - hash:
+      serializedVersion: 2
+      Hash: 82ca4776eb3cfafbdec97b1131c6e21e
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Theme.Primitives
+    className: FloatAffordanceThemeDatum
+  - hash:
+      serializedVersion: 2
+      Hash: 3e21c4fc1790539a1a5e53c6dae8099a
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ChannelMixer
+  - hash:
+      serializedVersion: 2
+      Hash: 73a6986a9339392cdc79f8c8d9502715
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALNotification
+  - hash:
+      serializedVersion: 2
+      Hash: b24bae4511d404331640e62f8b8c2ed0
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: ProbeVolumesOptions
+  - hash:
+      serializedVersion: 2
+      Hash: 4c5da9f424165f34277943d8c02c6b80
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: ContentScrollSnapHorizontal
+  - hash:
+      serializedVersion: 2
+      Hash: 49a2510725c4699325c7cc6a8eca7f69
+    assemblyName: Unity.XR.CoreUtils
+    namespaceName: Unity.XR.CoreUtils.Datums
+    className: IntDatum
+  - hash:
+      serializedVersion: 2
+      Hash: d67d810308477482296430a133610330
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs
+    className: XRHandSkeletonPokeDisplacer
+  - hash:
+      serializedVersion: 2
+      Hash: dbee6a37bcad9302462a651d12031b03
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.ARStarterAssets
+    className: ARFeatheredPlaneMeshVisualizerCompanion
+  - hash:
+      serializedVersion: 2
+      Hash: 4c25010bd44e1932af12e2a4d619499e
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: RaycastMask
+  - hash:
+      serializedVersion: 2
+      Hash: 7e0706bf120aeabb33d946ba8e021337
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Transformers
+    className: XRGeneralGrabTransformer
+  - hash:
+      serializedVersion: 2
+      Hash: 8dff8e9853297d341afa0c11f9091b59
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: dda52e227b20aaa82c1b4faf2805b9fc
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: ColorSampler
+  - hash:
+      serializedVersion: 2
+      Hash: cbaf979d047774a0c18ce60cb0321b1b
+    assemblyName: Unity.XR.CoreUtils
+    namespaceName: Unity.XR.CoreUtils
+    className: XROrigin
+  - hash:
+      serializedVersion: 2
+      Hash: fe0a072dbdcbca34d5003c5299de3aaf
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: SceneRenderPipeline
+  - hash:
+      serializedVersion: 2
+      Hash: f1d93f1345d96745aef32d171f9fa8db
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: EOMdataloader
+  - hash:
+      serializedVersion: 2
+      Hash: 7d15107b725c023aa5d2e90048ca9c43
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Turning
+    className: SnapTurnProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc40a01667ca02b3354a4e7a61be082
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 53b8da9884b96fc61cb65cb4e4883c1b
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Interactors.Casters
+    className: CurveInteractionCaster
+  - hash:
+      serializedVersion: 2
+      Hash: bbbf93e762c4f3c9da3ad2d8fed9c5bf
+    assemblyName: Unity.Tutorials.Core
+    namespaceName: Unity.Tutorials.Core
+    className: SceneObjectGuid
+  - hash:
+      serializedVersion: 2
+      Hash: bc75926bfd3609757f7bf33ff766f026
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.EnhancedTouch
+    className: TouchSimulation
+  - hash:
+      serializedVersion: 2
+      Hash: 33eb495d99aa9bea4dbe8b4c4e02c7bb
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionReference
+  - hash:
+      serializedVersion: 2
+      Hash: 4878e735441f4041539853759559c86f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: e0cf060d3a0d1afae0c661ac42606ab8
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: ProbeVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 302bc0923e235cbd6014e96872d39105
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: MarkersUI
+  - hash:
+      serializedVersion: 2
+      Hash: 40be2ad159aa1a2b72ecc74cb38c7824
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: MultiplayerEventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 4c0d44c74414163eb8c252cecc1ff3c0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlotGraphic
+  - hash:
+      serializedVersion: 2
+      Hash: 4744b082b5cad6e5a7245f90ec5705cd
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter.Vizualisation
+    className: OfflineAnalysisManager
+  - hash:
+      serializedVersion: 2
+      Hash: d380664f93ddac7e992518341c2ee91c
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: InteractionLayerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 796f7e698873a3297877be6d03981dd1
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: InputFocus
+  - hash:
+      serializedVersion: 2
+      Hash: 24fc199e51b49141287341be12a58820
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AR
+    className: ARSelectionInteractable
+  - hash:
+      serializedVersion: 2
+      Hash: 6cf63e9dc888f92a3672d2e4db631c8e
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 3074afe1b03a0fb081e176a4ef1b9d09
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionAssetEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 97c010e1235075ea174008374b95a636
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Transformers
+    className: XRSingleGrabFreeTransformer
+  - hash:
+      serializedVersion: 2
+      Hash: 2220c6a885d06c397ed5816b58df9139
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALVirtualController
+  - hash:
+      serializedVersion: 2
+      Hash: f99729d304807fa914ab728da3d54c80
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: ActionBasedContinuousMoveProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 7aa7cc9138ba6e019b1f1bfa19c403f8
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: RadialSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 0763e9b439042fa7ebcfe5eb2850a1a5
+    assemblyName: Unity.XR.CoreUtils
+    namespaceName: Unity.XR.CoreUtils.Datums
+    className: FloatDatum
+  - hash:
+      serializedVersion: 2
+      Hash: f130e1bffa2f8da37a2a8c8beb791112
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: CUIText
+  - hash:
+      serializedVersion: 2
+      Hash: 113e54f67456d0e7754c0598ee2a6dd4
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: ProbeVolumePerSceneData
+  - hash:
+      serializedVersion: 2
+      Hash: 2f2958ecf76d68c7cc7eae209acffcbd
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Comfort
+    className: TunnelingVignetteController
+  - hash:
+      serializedVersion: 2
+      Hash: 28fd3d045acc780719a17f02073eb448
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 2e4734dc56949f9ff88a212ad37408fd
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: ActionBasedSnapTurnProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 874fdd0187a07d0c661fabca09e260c7
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs
+    className: XRTransformStabilizer
+  - hash:
+      serializedVersion: 2
+      Hash: 77cb78fa698756e2cf7da2441a285c9d
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: SignalInfoScript
+  - hash:
+      serializedVersion: 2
+      Hash: 7ec34f0bcffa0a4df86fc2ab6d86c116
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.LSL4Unity.Demo
+    className: LSLTransformDemoOutlet
+  - hash:
+      serializedVersion: 2
+      Hash: 7902c454f70e5998a0303093b965af53
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: EoM_SignalEmulator
+  - hash:
+      serializedVersion: 2
+      Hash: e49f64f6c7006f2a8a0e7674b5de1fae
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: c53148decc00604fda162d5fe3c07959
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: ScrollPositionController
+  - hash:
+      serializedVersion: 2
+      Hash: 919dc7ec08f773fcae2d21a1e018bd99
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: 90cf308600fb4aeb677786843453ec55
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: RemoteInputPlayerConnection
+  - hash:
+      serializedVersion: 2
+      Hash: 73cb2de0f8de6618950d4476852d85aa
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: LoggerController
+  - hash:
+      serializedVersion: 2
+      Hash: c833d8ddc320fe5153f6a88cef23c858
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerObject
+  - hash:
+      serializedVersion: 2
+      Hash: 70cf4eeb9e01bf9e918eecd0f23d93a7
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.StarterAssets
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+    className: GazeInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 5c2a5af4658ede896d072a8a641d706e
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorCurves
+  - hash:
+      serializedVersion: 2
+      Hash: 47f78e94e3df8d612cefa1307a19e2ce
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerValue
+  - hash:
+      serializedVersion: 2
+      Hash: b091df1d5a72650c0ea012ab3040b06b
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerRenderingLayerField
+  - hash:
+      serializedVersion: 2
+      Hash: 2f62ac887e287e80d9c042b0cf140856
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Rendering
+    className: BlendShapeAffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: f3c627f3f1b8a7af3f093e408facb61c
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIGridRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 11bfd8e114b0cee733bd68200b989b01
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRendererData
+  - hash:
+      serializedVersion: 2
+      Hash: 4fcf0bb4aff1d14a1dfcdedc4b07bd05
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 8d7ab1303b1c14da5fdd62bf96ca6e89
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: FreeCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 8703b6ae2b0eefd9dafbc44d8d333fb1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 1ab136900c0edaeeb49424c852595030
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 668220ad7f1027853b1f1384affc8679
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.UI
+    className: ImageColorAffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: eb31526e5b0cc797b5e7869692f70cad
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: RescalePanel
+  - hash:
+      serializedVersion: 2
+      Hash: be013717eaccd24cc99fc5694926ac90
+    assemblyName: Unity.XR.ARSubsystems
+    namespaceName: UnityEngine.XR.ARSubsystems
+    className: XRReferenceObjectLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 7a0bde3ac6d739f92105cfe5613df2e0
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalAdditionalCameraData
+  - hash:
+      serializedVersion: 2
+      Hash: e4fd567ac15efb8b16f5ddf87bbc4c39
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARTrackedImage
+  - hash:
+      serializedVersion: 2
+      Hash: a99dbe9637c5f15c386354cfdb880b12
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: DebugSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 5015c05a2113f320567617675a1ebe33
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputStateWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 7053e305cdc1eb560f4c3be49d3b5136
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: e5f9868e485ac5248f96a3be584a5e4a
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: fcac1e07139912baf615ffd271909365
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: MeshCreator
+  - hash:
+      serializedVersion: 2
+      Hash: d9f4cde8822e1a8d450b498efac70b1c
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARTrackedObjectManager
+  - hash:
+      serializedVersion: 2
+      Hash: 810e3c228b295cc60c4de2cdd94b18cb
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c058ff8faaff3e0da63b5433ebfb40bc
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Tonemapping
+  - hash:
+      serializedVersion: 2
+      Hash: 953fad5c5ab1e7bb889420c434db93fe
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerFloatField
+  - hash:
+      serializedVersion: 2
+      Hash: e01367b3bd8ebdf898d4a78aa1e2a452
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALCameraInitializer
+  - hash:
+      serializedVersion: 2
+      Hash: a908b098f2284663c0b9130e88844772
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 9592b7f71e51c1983cf74db20b8e193c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TestCompression
+  - hash:
+      serializedVersion: 2
+      Hash: 409b30e5f6b50510f9f654594f8574b3
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion
+    className: XRBodyTransformer
+  - hash:
+      serializedVersion: 2
+      Hash: 4e3c4ed66ca536796a30acb96e6526d6
+    assemblyName: Unity.XR.CoreUtils
+    namespaceName: Unity.XR.CoreUtils.Datums
+    className: AnimationCurveDatum
+  - hash:
+      serializedVersion: 2
+      Hash: 5a5717edb850ddc471c0ab30656bb349
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation
+    className: TeleportVolumeDestinationSettingsDatum
+  - hash:
+      serializedVersion: 2
+      Hash: 6080065c538a29ab6947d5b55b8a3a7d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GoalManager
+  - hash:
+      serializedVersion: 2
+      Hash: 711ba963e2b245a25de71beeaeeeb658
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerFoldout
+  - hash:
+      serializedVersion: 2
+      Hash: 94431966f7bac5c2d6d59e8b71603410
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Interactables.Visuals
+    className: XRTintInteractableVisual
+  - hash:
+      serializedVersion: 2
+      Hash: 9f355e210e7950e47ad1391c7681435b
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerEnumField
+  - hash:
+      serializedVersion: 2
+      Hash: 747971f3229373f4a1fba639682c769a
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARBoundingBox
+  - hash:
+      serializedVersion: 2
+      Hash: adfe9445f6d82d6d611534aba789e506
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Feedback
+    className: SimpleHapticFeedback
+  - hash:
+      serializedVersion: 2
+      Hash: df843ef24cdb939fa5bf4e3a0747fa85
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UILinearDodgeEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 0a589759540ac7dd7e8eb9f48c7ec9d5
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARHumanBody
+  - hash:
+      serializedVersion: 2
+      Hash: dc9d663fc0d1239d8bd25af97e4d6f63
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AR.Inputs
+    className: TouchscreenGestureInputLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 8f232ec5e46381194c5c46fc007ddabd
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs.Readers
+    className: XRInputDeviceFloatValueReader
+  - hash:
+      serializedVersion: 2
+      Hash: a9f0153fc675e1f4ade818b83e4ff0c1
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: VolumeComponent
+  - hash:
+      serializedVersion: 2
+      Hash: e7c3a853974bd55fb68e0855761ff615
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Interactors
+    className: XRRayInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: 13f262cc0741566a7ab72682984bc3e1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: de94f30ed81bc5fde2c41ce9d58a8be3
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: AudioRecordTool
+  - hash:
+      serializedVersion: 2
+      Hash: c077b7112be6fbe9b010ec340689506a
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: ExampleSelectable
+  - hash:
+      serializedVersion: 2
+      Hash: bb5e73fb1e9b9309ed2a36b03c9b8863
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UISelectableExtension
+  - hash:
+      serializedVersion: 2
+      Hash: 914c94a196636fa777156edf3866406d
+    assemblyName: NativeFilePicker.Runtime
+    namespaceName: NativeFilePickerNamespace
+    className: FPCallbackHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad373bdb91ffea6fe37c8b1ee255abd
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs.Readers
+    className: XRInputDeviceInputTrackingStateValueReader
+  - hash:
+      serializedVersion: 2
+      Hash: 0078a6fc35bc7ed7a2486f7ebb9a469f
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI
+    className: ExtensionsToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 219eb03f3a7260c7b8f501c7f7a41c26
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ScreenSpaceAmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: ff470468f6067790250912332567a5da
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: DropDownList
+  - hash:
+      serializedVersion: 2
+      Hash: 583254a1619dbe3cde701bf77653e297
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: XRRig
+  - hash:
+      serializedVersion: 2
+      Hash: ac97cd62e88cb9d97e5f4a7bd3342fbc
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: SelectionBox
+  - hash:
+      serializedVersion: 2
+      Hash: 44a90c5002664d2142db65e2accfe7f3
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALMultiResumeMediator
+  - hash:
+      serializedVersion: 2
+      Hash: 0deb0fcf35163cc4b7cd016761457489
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.EventSystems.Extensions
+    className: AimerInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: fd4cc9037d66a0b564a5bf23671a88e7
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ForwardRendererData
+  - hash:
+      serializedVersion: 2
+      Hash: 3bfca6909991e7be4c1cbcf03bb3fb73
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.LSL4Unity.Scripts
+    className: LSLOutlet
+  - hash:
+      serializedVersion: 2
+      Hash: 3f42b95b59862bf59bb7c6f967057216
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
+    className: XRUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: b3a92a97a972e4bb986faefd93d97810
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter.Vizualisation
+    className: SubGraphValueItem
+  - hash:
+      serializedVersion: 2
+      Hash: 5f9d7635938e81cc73a59d653a1ca9d8
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AR.Inputs
+    className: ScreenSpaceSelectInput
+  - hash:
+      serializedVersion: 2
+      Hash: b75df491dd85a11de0d995d194bb9059
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIScreenEffect
+  - hash:
+      serializedVersion: 2
+      Hash: f98fc2b4d2a93c4cf9f753dc912f9477
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARTrackedObject
+  - hash:
+      serializedVersion: 2
+      Hash: a90f6a00b23520788be7d89ee3b0773d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 67f2e533bbfe68206e21fd8cf233561c
+    assemblyName: UnityEngine.SpatialTracking
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 5229ee9e4d55df94255498f527e10c72
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: VRCursor
+  - hash:
+      serializedVersion: 2
+      Hash: 6f5d13fc9b44bd08b35a749606213da3
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALXRLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 307a4796e7ee8806003857d8306c05fd
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: AccordionElement
+  - hash:
+      serializedVersion: 2
+      Hash: 618ecb40e054243112723145dc97c647
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPlane
+  - hash:
+      serializedVersion: 2
+      Hash: 335ee3b93587102a8cd7f77332bea58d
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Primitives
+    className: Vector4AffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 2935d860275674633f13fe7fd24549ab
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: CardStack2D
+  - hash:
+      serializedVersion: 2
+      Hash: c196461790a003071020b13a7616f537
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: TooltipTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 9dfc42d5d99c487cb7e1ba84ea997d5d
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UI_Knob
+  - hash:
+      serializedVersion: 2
+      Hash: f5df081962c06a171f380eb236cd1f3c
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVBox
+  - hash:
+      serializedVersion: 2
+      Hash: d40f1c79e040d1bc9c6383f6872d9680
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: ShineEffector
+  - hash:
+      serializedVersion: 2
+      Hash: e8a8bdfbb4e2d2e6e1e5307411dcdc62
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter.Vizualisation
+    className: DataTypeSelector
+  - hash:
+      serializedVersion: 2
+      Hash: 215d2dc6ec6ea06728398ea39a103cb3
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenStick
+  - hash:
+      serializedVersion: 2
+      Hash: 329401dc352061cee35d5cde6880256a
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: CaptureBehaviourBase
+  - hash:
+      serializedVersion: 2
+      Hash: 2399b1ed2bd5dd44cc3a96f74899e383
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ScaleMapping
+  - hash:
+      serializedVersion: 2
+      Hash: eb3689ba55543e2ebdd1aed67d41538a
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: e8fd74e57e72e8e4ef28792881adb864
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerUIntField
+  - hash:
+      serializedVersion: 2
+      Hash: 58570e231c93c2f96918856759b81286
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerPanel
+  - hash:
+      serializedVersion: 2
+      Hash: f99a048a5db04f44e282f48676f71aa6
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: ExciteOMeterManager
+  - hash:
+      serializedVersion: 2
+      Hash: 27e732f941f1e5b7fe892afe7b26abad
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UISoftAdditiveEffect
+  - hash:
+      serializedVersion: 2
+      Hash: e8d390bd9ecacc453a7500b90d0c0292
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 4f3fb2eff06ab48a5acd2e9b8469a225
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Interactors
+    className: XRDirectInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: 8e28bf73bf2e01504f66c39ace9fb8c2
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Interactables
+    className: XRSimpleInteractable
+  - hash:
+      serializedVersion: 2
+      Hash: 40bdadcd1cc14ab9d74347f31c1d4dd2
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: ArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: bf483b52b402d6937dcece9790b9c483
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.StarterAssets
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+    className: ClimbTeleportDestinationIndicator
+  - hash:
+      serializedVersion: 2
+      Hash: c33d3f6d9fafc6abbce742b24e2077d6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ExciteOmeterMeter
+  - hash:
+      serializedVersion: 2
+      Hash: 587df0db9a42812c0e13b99a6e3f7665
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.Hands
+    className: HandExpressionCapture
+  - hash:
+      serializedVersion: 2
+      Hash: 5a4aa2850fe11587f47e34c270c7fd22
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 638217bdb4c3c785548bb6f30015afeb
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Rendering
+    className: ColorGradientLineRendererAffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 86344100c716167fb86137c127ca9eee
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionImporterEditor
+  - hash:
+      serializedVersion: 2
+      Hash: b48ca080d593a52a8e2e4630c9c20e40
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Interactables
+    className: XRGrabInteractable
+  - hash:
+      serializedVersion: 2
+      Hash: 976cc3e9c9ce084268e328e57554c45f
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: LSL_Inlet_ECG
+  - hash:
+      serializedVersion: 2
+      Hash: 2292170f5daf07a8bc65558746eac195
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Audio
+    className: AudioAffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: b4dd8a60b9af361406e1a072e27e1473
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Interactors.Casters
+    className: SphereInteractionCaster
+  - hash:
+      serializedVersion: 2
+      Hash: 8ed5daadd237bb82e132790f75ffccaf
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputEditor
+  - hash:
+      serializedVersion: 2
+      Hash: f9a520ce5c7a5e26733bd87a3d55d35c
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: LetterSpacing
+  - hash:
+      serializedVersion: 2
+      Hash: 711350058a1e622134b2695eb8d9cc0e
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPointCloud
+  - hash:
+      serializedVersion: 2
+      Hash: 55060a7bf226ac385ce19ebd450f199f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: ee6b7cf3023df14934a3d8d577967529
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation
+    className: FurthestTeleportationAnchorFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 606ae6173ccedab7dfcb626cbe7b7deb
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Primitives
+    className: QuaternionAffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: cd4199bb308e12c8a5f5a7c8a93880ac
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation
+    className: XRInteractionSimulator
+  - hash:
+      serializedVersion: 2
+      Hash: f0087a7487c431e76c34669ad9e70ba2
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: TiltWindow
+  - hash:
+      serializedVersion: 2
+      Hash: c5bb89ad5c39f682cd52dd0f08974c33
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARCameraBackground
+  - hash:
+      serializedVersion: 2
+      Hash: 0ab631528fd5f5c679284e6e19baac16
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter.Vizualisation
+    className: ValueDisplayer
+  - hash:
+      serializedVersion: 2
+      Hash: 731480b83236435ed9fb94ca37cf5283
+    assemblyName: Unity.XR.Management
+    namespaceName: UnityEngine.XR.Management
+    className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
+      Hash: c8885c9f53d726b03ac65b7e0cdc1b74
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: ReactInletUI
+  - hash:
+      serializedVersion: 2
+      Hash: a9ac601356fdfb5c700589d81ef19640
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: OnlineLineGraph
+  - hash:
+      serializedVersion: 2
+      Hash: f2d2b83ad90395b52c26644f1b92a28c
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: ActionBasedContinuousTurnProvider
+  - hash:
+      serializedVersion: 2
+      Hash: c71608e3993b174e031104af6c52b934
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
+    className: TrackedDevicePhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: ed9657e47372a10e38bf1bebcf5e71c7
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: AREnvironmentProbe
+  - hash:
+      serializedVersion: 2
+      Hash: d8562f0ec97f677f1d91fb1a55f51d46
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs.Readers
+    className: XRInputDeviceVector3ValueReader
+  - hash:
+      serializedVersion: 2
+      Hash: 1553f209ae0b2d5d3a35685fca55f9c3
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 84774245b4b2667061e602ce32861b01
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: RescaleDragPanel
+  - hash:
+      serializedVersion: 2
+      Hash: fe8fe24c062dedcc988e8512f32fd60f
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Interactors.Visuals
+    className: CurveVisualController
+  - hash:
+      serializedVersion: 2
+      Hash: a2438b0b0f25e4b6bdd96bf31b7f5cf7
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter.Vizualisation
+    className: Timeline
+  - hash:
+      serializedVersion: 2
+      Hash: cc9a3257e0652bc03579a408b1d7a492
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: Gradient
+  - hash:
+      serializedVersion: 2
+      Hash: 7bb7ddee6d482d589f485e124e95f747
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter.Vizualisation
+    className: ScreenShotDisplayer
+  - hash:
+      serializedVersion: 2
+      Hash: 958f68bb92ef7eb0055738c94f15de47
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation
+    className: TeleportationAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: a8fcc4451999577be7cc81825329bef1
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALControllerLayout
+  - hash:
+      serializedVersion: 2
+      Hash: 0f0e30a1c8eaae21ebc2925ad23648c8
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation
+    className: SimulatedHandExpressionManager
+  - hash:
+      serializedVersion: 2
+      Hash: 1f83eef13a79f436d9b929359da21ab6
+    assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ShadowCaster2D
+  - hash:
+      serializedVersion: 2
+      Hash: d4c7cb9e46d192844a5b295d6a3f8dc5
+    assemblyName: Unity.RenderPipelines.GPUDriven.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: DisallowGPUDrivenRendering
+  - hash:
+      serializedVersion: 2
+      Hash: 9ffd32ba14a4645fe48407322e783628
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: CUIImage
+  - hash:
+      serializedVersion: 2
+      Hash: 10ffd5579f941e0f4946756d18f1a9df
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerValueTuple
+  - hash:
+      serializedVersion: 2
+      Hash: 40b841a4b010894cd9ce52be391169c5
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Interactors
+    className: XRGazeInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: be0e2e277c320339d2d7c41dd2767685
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: DragCorrector
+  - hash:
+      serializedVersion: 2
+      Hash: 1a680d9a08de79b0d2c779e78c9843b4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 5a25c7516fadef3552c99f55215749d0
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDeviceDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: f5e5a36fe362c97b4733f390fbf287d9
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: TableLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 79adeb4a0b9306120b3c84b595c467fa
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALNativeErrorNotification
+  - hash:
+      serializedVersion: 2
+      Hash: f73e3a97805e1e671360c632c4565101
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: FilmGrain
+  - hash:
+      serializedVersion: 2
+      Hash: c24518cad82fd77c091c26fdb19907bc
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: RadialLayout
+  - hash:
+      serializedVersion: 2
+      Hash: 30c97cdef10ad2f976926b1a494afd86
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: SegmentedControl
+  - hash:
+      serializedVersion: 2
+      Hash: 703ab971c7156a6eab5c372829d0e751
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: 
+    className: FullScreenPassRendererFeature_OldGUID
+  - hash:
+      serializedVersion: 2
+      Hash: 83447eb14ba5f9222c0f703aabb89c38
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: d37fd991096492ed833967fbe26ca4d1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CaptureControllersInputXRI
+  - hash:
+      serializedVersion: 2
+      Hash: 92c59a75e7885e82724403fe68f949cd
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.StarterAssets
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+    className: MaterialPipelineHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 77d83e346e5cba7338279b118cd214e2
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: RMSSD
+  - hash:
+      serializedVersion: 2
+      Hash: c295f30afa84e01403208fa0cae6cd3a
+    assemblyName: Unity.XR.CoreUtils
+    namespaceName: Unity.XR.CoreUtils.Datums
+    className: StringDatum
+  - hash:
+      serializedVersion: 2
+      Hash: e4b7831f0a9e91f079eb40ea24427631
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorAdjustments
+  - hash:
+      serializedVersion: 2
+      Hash: 415316b9bbc4e339c901a46503e2790b
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: VolumeProfile
+  - hash:
+      serializedVersion: 2
+      Hash: f050aac9498435e709dc58cba7537f76
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI
+    className: ReturnKeyTriggersButton
+  - hash:
+      serializedVersion: 2
+      Hash: 52ffb100e4d2a1edfff55061e8fdad04
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: ExciteOMeterOnlineUI
+  - hash:
+      serializedVersion: 2
+      Hash: 72ef6c1f122c296e744899c69b2535c6
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALSessionManager
+  - hash:
+      serializedVersion: 2
+      Hash: be59e3db872813df16b74619749cc8ae
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARBackgroundRendererFeature
+  - hash:
+      serializedVersion: 2
+      Hash: 2f43860e745f8edade7bd381809e537b
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalAdditionalLightData
+  - hash:
+      serializedVersion: 2
+      Hash: 24af424a437762b0c98a2238a41b2825
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerButton
+  - hash:
+      serializedVersion: 2
+      Hash: 4d693b82448642f2f0e315bab00fb08d
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: HexColorField
+  - hash:
+      serializedVersion: 2
+      Hash: ff76cf6cf52b4db7b95af6ffadca9288
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 0f19765290d81f9e93eff7828a091d40
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInput
+  - hash:
+      serializedVersion: 2
+      Hash: 057409356ad6ba9615fc69608eb6fbab
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter.Vizualisation
+    className: LineGraphItem
+  - hash:
+      serializedVersion: 2
+      Hash: a8e60f700e533865bb70004edcc0c7b7
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIVerticalScroller
+  - hash:
+      serializedVersion: 2
+      Hash: 89cbf6cb69231238b249a7927731381a
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: SelectableScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 3594d8e9fcbd74e51eec80efbf16c599
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: 41cc7fffbed3f39916dde454cdcb7bd4
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARParticipant
+  - hash:
+      serializedVersion: 2
+      Hash: 2cd6455e04d5632b44a636525c5044f7
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: DiamondGraph
+  - hash:
+      serializedVersion: 2
+      Hash: d498cf8638258c52d91c7e1b211ffb10
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIMultiplyEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 0b63f6d3335e11939ce8790b904c8691
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 24e5e8bf74969e7563638ff95d14201c
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: PaginationManager
+  - hash:
+      serializedVersion: 2
+      Hash: fe5a8df253e3bd633404377d0c87e611
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter.Vizualisation
+    className: ToolTip
+  - hash:
+      serializedVersion: 2
+      Hash: 5d72ada752e947f52014ae0d76bc24c2
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALCaptureBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 32429edc61062ef3591910d30e4d6a9d
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: LSL_Inlet_ACC
+  - hash:
+      serializedVersion: 2
+      Hash: ff5172bc81dc2da4c7de2a8bf56dc4b8
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionsEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: ca19e22ab4034a81ce6f99f8ba9f9857
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALTrackingTypeChangeMask
+  - hash:
+      serializedVersion: 2
+      Hash: ec115275cac2510551f6a53658346fa5
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Movement
+    className: GrabMoveProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 64756cee21909a7a459d5e05844baa97
+    assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: CompositeShadowCaster2D
+  - hash:
+      serializedVersion: 2
+      Hash: d1bc34b2268adaf4386cd512b5617f8c
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Theme.Primitives
+    className: ColorAffordanceThemeDatum
+  - hash:
+      serializedVersion: 2
+      Hash: 4c3f3252f1ffdb6853fe09ce3d6da328
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Climbing
+    className: ClimbProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 2242cf92e54eeb12c0122dd66d1aab07
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: CardPopup2D
+  - hash:
+      serializedVersion: 2
+      Hash: 8fe6d4f095ce838f5396d1867140a9b6
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: CameraSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: ea27088dd2b4ec8ae4df473e5466fd04
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Rendering
+    className: Vector2MaterialPropertyAffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: cb4f3e1a4da2dcd58cfb5e2b0c466c65
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: MarkersReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 150fddafe52119aab11e80c57eaa4dd7
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: HeadsetVelocityAcceleration
+  - hash:
+      serializedVersion: 2
+      Hash: 5a514d919fdb5758ba0241b798ca1721
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
+    className: CanvasTracker
+  - hash:
+      serializedVersion: 2
+      Hash: fded5baf90ef1e8bc1a62a2280510240
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Filtering
+    className: TouchscreenHoverFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 197e9caffd5e2811f4a9d830a2ec69fd
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALSettings
+  - hash:
+      serializedVersion: 2
+      Hash: d497e277ee09923aa44c51901a8f68f9
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: LensFlareDataSRP
+  - hash:
+      serializedVersion: 2
+      Hash: 18600022ca5c13cb831410af497e2451
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: LSL_Inlet_RRi
+  - hash:
+      serializedVersion: 2
+      Hash: 0a4ef3c4e73b2f3eef913e2325924084
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputSettings
+  - hash:
+      serializedVersion: 2
+      Hash: d0392b7f3f52d5af537ade186b4f51f1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 350afe5fe9ee8fdb7ef37eb60decebaa
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Movement
+    className: ContinuousMoveProvider
+  - hash:
+      serializedVersion: 2
+      Hash: c725cd8b2f06d443b43070a5cf510fee
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Movement
+    className: TwoHandedGrabMoveProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 136f80fb6429f04c776ade9abcf4a740
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPointCloudMeshVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 9189bebafe37739550a2c511439b5753
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ARTemplateMenuManager
+  - hash:
+      serializedVersion: 2
+      Hash: 9392468081b5aaf50ad96b5d35d8ca5c
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.StarterAssets
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+    className: DynamicMoveProvider
+  - hash:
+      serializedVersion: 2
+      Hash: b810dfd26c061161a980f9a956f9a116
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ScreenSpaceShadows
+  - hash:
+      serializedVersion: 2
+      Hash: 0df73bf85507d5b83420fa669229683c
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Climbing
+    className: ClimbInteractable
+  - hash:
+      serializedVersion: 2
+      Hash: b5dd7510458f9d0dec9528a3d509ffdf
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.StarterAssets
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+    className: DestroySelf
+  - hash:
+      serializedVersion: 2
+      Hash: 9dc274eab7228631e90d4757b13b768a
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ShadowsMidtonesHighlights
+  - hash:
+      serializedVersion: 2
+      Hash: a40d32d04c42977b85754a05c6d69ea7
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: TabNavigationHelper
+  - hash:
+      serializedVersion: 2
+      Hash: ca599cb84a9012808b5f67626ba51629
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.StarterAssets
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+    className: ControllerInputActionManager
+  - hash:
+      serializedVersion: 2
+      Hash: fd766c5c43e23a63aca97fc42b9974c2
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs.Readers
+    className: XRInputDeviceButtonReader
+  - hash:
+      serializedVersion: 2
+      Hash: 88b641ff76f87742e90e215af9948b55
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: LSL_Inlet_HR
+  - hash:
+      serializedVersion: 2
+      Hash: 049f6aa84fe1cb5359c9338e96d0b07e
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: UIFoldout
+  - hash:
+      serializedVersion: 2
+      Hash: b1af789db269d5efafd5ff3e17a1bf07
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs
+    className: XRInputModalityManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8bbce9932f67ad8e7f4eefec87800f94
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: e18e797dde267e8039a46d03385358f5
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: ShineEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 117aa9abf81f4f1d1678b58d1f667e5c
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIAdditiveEffect
+  - hash:
+      serializedVersion: 2
+      Hash: db9e230cc11af75b21be8603c1a1435c
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARRaycastManager
+  - hash:
+      serializedVersion: 2
+      Hash: 88841d8a785585435dd23e4f14aa3887
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALTrackingModeChangeListener
+  - hash:
+      serializedVersion: 2
+      Hash: 52bf683a496f61e2f75ca04881b1ac06
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: SoftMaskScript
+  - hash:
+      serializedVersion: 2
+      Hash: 39e9d08953376a1502344af6f59b0396
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Rendering
+    className: FloatMaterialPropertyAffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 13f856e5a067c20e170a570b758fb887
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: MovementDataManager
+  - hash:
+      serializedVersion: 2
+      Hash: 04b6685b6f724c0d6024e6b6f96c8202
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f9e8812f2103559ddd865d194412aef0
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UI_TweenScale
+  - hash:
+      serializedVersion: 2
+      Hash: ba03899dfbc5a507972e16e9e609af45
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: MovementCapturer
+  - hash:
+      serializedVersion: 2
+      Hash: 101679b8b0922dc747d41fe372827967
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: PPIViewer
+  - hash:
+      serializedVersion: 2
+      Hash: 671136a4aba573ed7f03fecf2000587c
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIFlippable
+  - hash:
+      serializedVersion: 2
+      Hash: b838cbada0b03f1cfbaebc8e124f4f39
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenButton
+  - hash:
+      serializedVersion: 2
+      Hash: cc5711102ca406687293a16abbcd7b2b
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: StepperSide
+  - hash:
+      serializedVersion: 2
+      Hash: 5f70b16cd9acc9c1dd88b51b6ed89669
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIndirectToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 95236623c5b6d377bb7ace37f94917bd
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Climbing
+    className: ClimbTeleportInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: 5874b789cd9832847c61ebfa803213af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 656900f3eacc1cd944adb71a70bd9396
+    assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: PixelPerfectCamera
+  - hash:
+      serializedVersion: 2
+      Hash: d771cabeaa363771c54f6c41824f7abb
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: LiftGammaGain
+  - hash:
+      serializedVersion: 2
+      Hash: cb49ce80d4b69cb2ed30d83bfcb146ae
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerBitField
+  - hash:
+      serializedVersion: 2
+      Hash: 5ebc58ec194dd44630b25fcc270ad4af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: cac40d2f764f526c6d35c42606cd2f9f
+    assemblyName: Unity.XR.ARCore
+    namespaceName: UnityEngine.XR.ARCore
+    className: ARCoreLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 2cc5af0f17cef9c717df88c8c7e4c9aa
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine
+    className: LightAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: 82a7c77ba1da2d34c81569e79eeeed9d
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPlaneMeshVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 26d6bca75462e37f860c0d31a7b2140c
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARShaderOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: ee32b6ae4a84ccc0be4c49dfb73f782e
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AR
+    className: ARTranslationInteractable
+  - hash:
+      serializedVersion: 2
+      Hash: bb95ea89e196e35b375f80bb89437627
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: RangeSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 8e8da8a25a9829de35173d5124351462
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: ColorSliderImage
+  - hash:
+      serializedVersion: 2
+      Hash: 686f5b2e573b0babb61f66a8c8e40b53
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Interactors.Visuals
+    className: XRInteractorLineVisual
+  - hash:
+      serializedVersion: 2
+      Hash: d312b0a31d2590fe44322e8086e0c6fd
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AR
+    className: ARGestureInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: 95933104a4f8810863c186d6a09dfa9b
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: ReorderableList
+  - hash:
+      serializedVersion: 2
+      Hash: 596cc1b97da4f39826ab48816da863a5
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: ComboBox
+  - hash:
+      serializedVersion: 2
+      Hash: 3219450cb9209c3f7665740d433624e5
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIScrollToSelection
+  - hash:
+      serializedVersion: 2
+      Hash: 05c7ceac05192c441b5a9e3030693901
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.StarterAssets
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+    className: IncrementUIText
+  - hash:
+      serializedVersion: 2
+      Hash: 920bbc2846048a520fc5712d217a37d7
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: Scroller
+  - hash:
+      serializedVersion: 2
+      Hash: 9b98565662af0159536455d4551c3ab4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TransformMapping
+  - hash:
+      serializedVersion: 2
+      Hash: 5d4f0ba5ccb0f744ed92481c443887e0
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: CooldownButton
+  - hash:
+      serializedVersion: 2
+      Hash: 5dc51b0140815ee83ba613dce32f5b12
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerPersistentCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 49bb855862e1537f563553bc575f2bc5
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: CardExpanding2D
+  - hash:
+      serializedVersion: 2
+      Hash: 8787da68acbcc2f439d01ee75c474214
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: 73d389898db9b00db93dafddedd18fdb
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.LSL4Unity.Scripts.Examples
+    className: DemoInletForFloatSamples
+  - hash:
+      serializedVersion: 2
+      Hash: 1abdd04aa044a78e6fe6e59cfb4b0944
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AR.Inputs
+    className: ScreenSpaceRotateInput
+  - hash:
+      serializedVersion: 2
+      Hash: 5007bbf9d1cb6bc94231b17f2d5832fc
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: Accordion
+  - hash:
+      serializedVersion: 2
+      Hash: b5007673bbbdb9d12597a1d8201370f5
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: bf0d0ba65602d14cb407e305aa442426
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: CardExpanding3D
+  - hash:
+      serializedVersion: 2
+      Hash: cf13ffdbdb4e376dd560732d8f348f4f
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIHighlightable
+  - hash:
+      serializedVersion: 2
+      Hash: 1855f3d7fdc06e443fb533451efe051a
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: ColorPickerPresets
+  - hash:
+      serializedVersion: 2
+      Hash: cc7d1b7d2199922340ccbf8a804412f4
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Interactors.Visuals
+    className: XRInteractorReticleVisual
+  - hash:
+      serializedVersion: 2
+      Hash: 96d9bba9e31316466ecf589b51e83ca6
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: XRControllerRecording
+  - hash:
+      serializedVersion: 2
+      Hash: caeca3096dfc9c4b033729f7ea989c0a
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Primitives
+    className: FloatAffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: d5cd7f207e91ca8336c65a577a6fb2a0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 1cfc8265385115bd8eded90b2cc71755
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.EventSystems
+    className: GamePadInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 42e2c537961da56e6bb97c2c3ca04451
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALButton
+  - hash:
+      serializedVersion: 2
+      Hash: 5d35fdba93264127498053a58b266a6f
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: CurvedText
+  - hash:
+      serializedVersion: 2
+      Hash: 8a6dcd91b02cff67084758710873f12b
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.StarterAssets
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+    className: MultiAnchorTeleportReticle
+  - hash:
+      serializedVersion: 2
+      Hash: 00bbd9db8634496d079d17711b2ff7c4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: e457a3d50603c83857009782114cf52b
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation
+    className: TeleportationArea
+  - hash:
+      serializedVersion: 2
+      Hash: 5da64711136d645de21ab9187b46cd4d
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UILineRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 51603d25dc8c39903df98901361f0b73
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: DecalRendererFeature
+  - hash:
+      serializedVersion: 2
+      Hash: f849bf166a15d1541cbd4bdafcee8b3b
+    assemblyName: Unity.XR.Interaction.Toolkit.Samples.StarterAssets
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
+    className: TeleportVolumeAnchorAffordanceStateLink
+  - hash:
+      serializedVersion: 2
+      Hash: fb79e95da8891fc7ac6c36ca6967af23
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c5a9bedc5b68e9be54d7167fd4a3e82d
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter.Vizualisation
+    className: TimeMarker
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab1d2706728747246ac8a7661c0d5a7
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UICornerCut
+  - hash:
+      serializedVersion: 2
+      Hash: 24548ec56c2c24fc87757ccedf0406ed
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI
+    className: ExtensionsToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 2b54dbf5238af89fc7695ae0cdc38a6c
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: Gradient2
+  - hash:
+      serializedVersion: 2
+      Hash: 35cbbc85fed053dd2f550ea64d858519
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: DeviceBasedContinuousTurnProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 1f7f6f672679b3c34f45127586214732
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion
+    className: CharacterControllerBodyManipulator
+  - hash:
+      serializedVersion: 2
+      Hash: 711fcd430ced52d118771c9c71e13238
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: RenderObjects
+  - hash:
+      serializedVersion: 2
+      Hash: 8d5318ed8488b1fe17c08044ce1b8309
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 0cbf06896a50f2bf3cbfcb3cd4eef07b
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALControllerSimulator
+  - hash:
+      serializedVersion: 2
+      Hash: e18dfd2b913b09fbbb2405165a2e6a44
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 85904111557a373df16dc5885ce4506d
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Interactors
+    className: XRInteractionGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 5382156409d7c462c67822a5ee8d6c85
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerToggleHistory
+  - hash:
+      serializedVersion: 2
+      Hash: 03a9ebeb4ef2e4f93c099b1dd1f419f7
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter.Vizualisation
+    className: SessionListItem
+  - hash:
+      serializedVersion: 2
+      Hash: d85292b1d7ddb10e5a2df5d221dcba86
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e6ce9fd69525e1f83fbff3c6e6b864c7
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: ReorderableListDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 185e7bacfbbc5defefa609c70f7ff4ce
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 7fe4cc923578d80b246471921934cdf2
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPointCloudParticleVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: fea660240dde52e08bd79d154e104e15
+    assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Light2D
+  - hash:
+      serializedVersion: 2
+      Hash: 86154b06a601c4f241e8b99e9fdaf0b8
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: Stepper
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 9e9aab0ca9d3bc3e4da7c2dded4233d2
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: ColorLabel
+  - hash:
+      serializedVersion: 2
+      Hash: 22b2f49c4325d7067b251de3ffef43d7
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: ScrollRectLinker
+  - hash:
+      serializedVersion: 2
+      Hash: 46d78d855ef545314eff9c5bfa840593
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ARStressExperiment
+  - hash:
+      serializedVersion: 2
+      Hash: 88b3b1f5136190aa89612828f03732b9
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AR.Inputs
+    className: ScreenSpaceRayPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: ed2c59b75f8f3cd8df4cd4387d965e71
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector2
+  - hash:
+      serializedVersion: 2
+      Hash: e46ef85fefbd22ad17e337d5e8704e26
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 124718ecaf00799dacb28e981e393969
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARHumanBodyManager
+  - hash:
+      serializedVersion: 2
+      Hash: bbe9f3d34afa3a634d5410fca2930c11
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation
+    className: SimulatedDeviceLifecycleManager
+  - hash:
+      serializedVersion: 2
+      Hash: 1c5ba82cb62ae5af64b97e3f3e0d80ee
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UICircle
+  - hash:
+      serializedVersion: 2
+      Hash: 2541c03d117382d4ebbe0bb0775dd2dc
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerProgressBar
+  - hash:
+      serializedVersion: 2
+      Hash: 5c21f4846181ee6e245db1fcfb62fc0e
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 0ed7dfcb5356681e6627b207891cb849
+    assemblyName: Unity.XR.Management
+    namespaceName: UnityEngine.XR.Management
+    className: XRManagerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 776903a262591f2540a3bf11e8543daf
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARSession
+  - hash:
+      serializedVersion: 2
+      Hash: 2a20276ef91eda57458d115fd0861cd6
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALTemperatureNotification
+  - hash:
+      serializedVersion: 2
+      Hash: 0b7d7b039955283d0c3663af2bce4757
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: VRInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f33926fdf6def0bb08e38dafa32f0950
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Gravity
+    className: GravityProvider
+  - hash:
+      serializedVersion: 2
+      Hash: cde402e184a6ab530144506bc9d6a0af
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector4
+  - hash:
+      serializedVersion: 2
+      Hash: 58981255581e0865449e3c9d8d907ff7
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIScrollToSelectionXY
+  - hash:
+      serializedVersion: 2
+      Hash: 8bd3af9886d1a3c376fce3d0dbfcdfb9
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter.Vizualisation
+    className: InstantMarkerItem
+  - hash:
+      serializedVersion: 2
+      Hash: 37bf71057ea34aaf9f08953f6af3fa79
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARSessionOrigin
+  - hash:
+      serializedVersion: 2
+      Hash: ae527f5b20d400012bad02149501dc40
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALDialogController
+  - hash:
+      serializedVersion: 2
+      Hash: d43260fbb1ef974b6688e4b5a82e8e2c
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIWindowBase
+  - hash:
+      serializedVersion: 2
+      Hash: 7943b613aacf2beb353f544bebb4e64d
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: ScrollConflictManager
+  - hash:
+      serializedVersion: 2
+      Hash: a65cb89111094e471ad7adc4db15776f
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UILineTextureRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 27fcf46f05da57849d306826fb32eb18
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: SplitToning
+  - hash:
+      serializedVersion: 2
+      Hash: 963c15793a023cb75c6ab6c2968822e9
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARFace
+  - hash:
+      serializedVersion: 2
+      Hash: 27c9fb31de4ab6a12a90c8f5edce1a59
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Filtering
+    className: XRTargetFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 0650ccd543577da4aacd23273bf6e9ff
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPlaneManager
+  - hash:
+      serializedVersion: 2
+      Hash: b747f5d40674055dd70e18552f1b0447
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: ee2d606ac26fe34a9f7a098462d9d353
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: LocomotionSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 994b074d7117872f444a7e66875a9814
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: SuperellipsePoints
+  - hash:
+      serializedVersion: 2
+      Hash: 517165ca1fb696abac1007addd564330
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Theme.Primitives
+    className: Vector3AffordanceThemeDatum
+  - hash:
+      serializedVersion: 2
+      Hash: a8eeaff9bed20ab14282a354f419dd93
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: NicerOutline
+  - hash:
+      serializedVersion: 2
+      Hash: e6b258489c88376c5869946b2735e7e5
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 93c7aba7f67941452804c0f9625f50f6
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.LSL4Unity.Scripts.Examples
+    className: ExampleFloatInlet
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc957f2415bebd410ea13ad547108e4
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: TextPic
+  - hash:
+      serializedVersion: 2
+      Hash: bb0538784abf791db91f82a1a336b398
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: SessionVariablesController
+  - hash:
+      serializedVersion: 2
+      Hash: 5917642ace0eae93c20a9c11477d7477
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Rendering
+    className: ColorMaterialPropertyAffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 6a0b5b415c00f783202fd1ae2d556cb2
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ff822366fb4b82dd2e5c124f9e7251bd
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALRecordBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 1f29e6bbae61d97e06eff4d92ce751b4
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALRGBCameraTexture
+  - hash:
+      serializedVersion: 2
+      Hash: 989cb5497226fcf94cb80a6b2df4b202
+    assemblyName: Assembly-CSharp
+    namespaceName: ExciteOMeter
+    className: SessionFolderData
+  - hash:
+      serializedVersion: 2
+      Hash: ad2673e406b5c065f68c29e14fd68886
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation
+    className: TeleportationMultiAnchorVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 74daed8f764238a3b5bf90c810a95407
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit
+    className: ActionBasedController
+  - hash:
+      serializedVersion: 2
+      Hash: 694a7326a7ff60f8b2aa39cfe4636485
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
+    className: LazyFollow
+  - hash:
+      serializedVersion: 2
+      Hash: a7e81b1235c8ce06d551b2fe10a7075f
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Feedback
+    className: SimpleAudioFeedback
+  - hash:
+      serializedVersion: 2
+      Hash: 33ea6d2336115a0344e83d495330a2d7
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs.Haptics
+    className: XRInputDeviceHapticImpulseProvider
+  - hash:
+      serializedVersion: 2
+      Hash: b88e78b6860b6061b2c681ea9b80b6bf
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerToggle
+  - hash:
+      serializedVersion: 2
+      Hash: f719f19519510ed485f9fcbd2bd1ec89
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion.Climbing
+    className: ClimbSettingsDatum
+  - hash:
+      serializedVersion: 2
+      Hash: 9473e87159489f6115b425957d730e89
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.LSL4Unity.Scripts
+    className: LSLTimeSync
+  - hash:
+      serializedVersion: 2
+      Hash: a008755455a28146141effb2eaba5224
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Rendering
+    className: MaterialInstanceHelper
+  - hash:
+      serializedVersion: 2
+      Hash: db6133687572f9dc24f1fd4238ef9b83
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: d714dc2ae3119f7f3717adab2698d0a7
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIImageCrop
+  - hash:
+      serializedVersion: 2
+      Hash: bd868b8321f2cc6507b3a4c77352abda
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: ResizePanel
+  - hash:
+      serializedVersion: 2
+      Hash: 10c17b309bdca62b4d7fbaf113ed4ca0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 58f6c91dc9977217e7536afccdb74f71
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: ProbeAdjustmentVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 98fc632376b973d35b77a86db3ff372a
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: ScrollSnapBase
+  - hash:
+      serializedVersion: 2
+      Hash: e37235e3c0ec6ade071aab24543b68e1
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs.Readers
+    className: XRInputDeviceQuaternionValueReader
+  - hash:
+      serializedVersion: 2
+      Hash: db85a4d07a5c7df21033d4c5e6c626fc
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: CUIGraphic
+  - hash:
+      serializedVersion: 2
+      Hash: 66aa407a0cb9eebcb39f46d39f3e5563
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: CUIBezierCurve
+  - hash:
+      serializedVersion: 2
+      Hash: e762046bc4b879cdeba091c4c65fafed
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation
+    className: XRDeviceSimulatorSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 07858f86e181b0c31625c76a82ccbae0
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: CylinderText
+  - hash:
+      serializedVersion: 2
+      Hash: 3dcddde662860bf94ef3d76fac03d979
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALMainThreadDispather
+  - hash:
+      serializedVersion: 2
+      Hash: e2429f69aae094f774400b8c21d30e58
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Transformers
+    className: XRDualGrabFreeTransformer
+  - hash:
+      serializedVersion: 2
+      Hash: 79821dc2b481c08c32f3ff08639feb7a
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: NonDrawingGraphic
+  - hash:
+      serializedVersion: 2
+      Hash: a1ac4c50e55874de16eee3db71aa9784
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 6478d2d26af607a418623e4c8dbce3c6
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: FullScreenPassRendererFeature
+  - hash:
+      serializedVersion: 2
+      Hash: 84f954599880097861901c8b306f32de
+    assemblyName: Assembly-CSharp
+    namespaceName: UnityEngine.UI.Extensions
+    className: FlowLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 5afb43d3a528f755a21ed42a793915f4
+    assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Renderer2DData
+  - hash:
+      serializedVersion: 2
+      Hash: 0393bfaf0d7da69170c8dc17fe0dc966
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Canvas_Utils
+  - hash:
+      serializedVersion: 2
+      Hash: 800d7bbf0edb0055aeacdbfbe84a84b8
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: c1ed804c7075ac7384c50a5385e3e4fe
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Primitives
+    className: Vector2AffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 56715333a45f5950c567c4a3557b26b6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ScreenRecorder
+  - hash:
+      serializedVersion: 2
+      Hash: 616cc16a0d8f05f4c6d2c3630f8fd718
+    assemblyName: Unity.XR.Interaction.Toolkit
+    namespaceName: UnityEngine.XR.Interaction.Toolkit.Locomotion
+    className: UnderCameraBodyPositionEvaluator
+  - hash:
+      serializedVersion: 2
+      Hash: f2305da2400dfe6f069770a1a63f0f7c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e26319fcd92e6c3cfc90f9a299f04a70
+    assemblyName: Unity.XR.XREAL
+    namespaceName: Unity.XR.XREAL
+    className: XREALLocalizationTool
+  - hash:
+      serializedVersion: 2
+      Hash: 01f35565fb1f8f1fdfb9053207cc21fb
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.LSL4Unity.Scripts
+    className: LSLMarkerStream
+  - hash:
+      serializedVersion: 2
+      Hash: a4f6185eb1cf7b04ef0a35e6e249b777
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SimpleExperimentManager
+  - hash:
+      serializedVersion: 2
+      Hash: d433f69faface7a723652a74be2559e0
+    assemblyName: Unity.XR.ARFoundation
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARFaceMeshVisualizer
+  platform: 13
+  scenePathNames:
+  - Assets/Scenes/Bachelor Experiment.unity
+  playerPath: D:/Uni/Bachelor/Software/APKs/v4.4.apk
